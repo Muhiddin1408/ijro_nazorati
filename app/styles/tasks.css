@@ -1,0 +1,21 @@
+/* tasks: rules used only by app/tasks-page.tsx and its private components.
+   Imported by that entry file; see docs/FRONTEND_STYLE.md. */
+.management-panel { overflow: hidden; }
+.management-toolbar { min-height: 58px; display: flex; align-items: center; justify-content: space-between; padding: 10px 16px; border-bottom: 1px solid var(--border); }
+.toolbar-title { display: flex; align-items: center; gap: 8px; color: var(--c-slate-27); font-size: 12px; font-weight: 650; }
+.task-module-switch { display:flex; align-items:center; gap:4px; padding:3px; border:1px solid #dfe5ed; border-radius:9px; background:#f2f5f8; }
+.task-module-switch button.active em { color:var(--blue); background:var(--blue-soft); }
+.task-detail-card { min-width: 0; min-height: 214px; display: flex; flex-direction: column; padding: 16px; border: 1px solid var(--border); border-radius: 9px; background: var(--c-white); transition: 150ms ease-out; }
+.task-detail-card:hover { border-color: #b9c9e5; box-shadow: 0 6px 18px rgba(23,32,51,.06); transform: translateY(-1px); }
+.task-detail-top { display: flex; align-items: center; justify-content: space-between; }
+.task-meta-line { display: flex; align-items: center; gap: 6px; margin: 4px 0; color: #687386; font-size: 9px; }
+.task-meta-line.recurring { color: var(--violet); }
+.task-assignees-line { min-width: 0; display: flex; align-items: center; gap: 8px; margin-top: 10px; color: #626e80; font-size: 8px; }
+.task-detail-bottom { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-top: auto; padding-top: 13px; border-top: 1px solid var(--c-slate-94); }
+.card-progress { display: flex; align-items: center; gap: 6px; }
+@media (max-width: 480px) {
+  .management-toolbar { align-items: flex-start; flex-direction: column; gap: 10px; } }.clickable-card { transition: transform 130ms ease,box-shadow 130ms ease; }.clickable-card:hover { transform: translateY(-2px); box-shadow: 0 10px 25px rgba(29,48,85,.08); }
+.skeleton-card { pointer-events: none; min-height: 150px; }
+.task-detail-card.awaiting-acceptance { border-color: var(--c-orange-81); box-shadow: 0 0 0 2px #f7e3c2 inset; }
+.acceptance-badge { align-self: flex-start; display: inline-flex; align-items: center; gap: 5px; margin-bottom: 6px; padding: 2px 8px; border-radius: 999px; font-size: 11.5px; font-weight: 600; color: var(--c-orange-35); background: var(--c-orange-95-2); border: 1px solid var(--c-orange-81); }
+[data-theme="dark"] .task-detail-card.awaiting-acceptance { border-color: #6b4a1c; box-shadow: 0 0 0 2px #3a2a12 inset; }

@@ -1,0 +1,22 @@
+{$DOMAIN} {
+	# Server-sent events (chat) must not be compressed or buffered.
+	@compressible not path /api/chat/stream
+	encode @compressible zstd gzip
+	request_body {
+		max_size 600MB
+	}
+	reverse_proxy app:3000 {
+		# The app rate-limits logins by this header; never trust a client-sent value.
+		header_up X-Real-IP {remote_host}
+		# Stream responses (SSE, file downloads) are passed through immediately.
+		flush_interval -1
+		header_up -Oai-Authenticated-User-Id
+		header_up -Oai-Authenticated-User-Email
+		header_up -Oai-Authenticated-User-Full-Name
+		header_up -Oai-Authenticated-User-Full-Name-Encoding
+	}
+	log {
+		output stdout
+		format console
+	}
+}

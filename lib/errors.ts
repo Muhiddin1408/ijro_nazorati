@@ -1,0 +1,8 @@
+/** Dependency-free so policies and services can throw it without loading request helpers. */
+export class ApiError extends Error {
+  status: number;
+  constructor(status: number, message: string) {
+    super(message);
+    this.status = status;
+  }
+}

@@ -1,0 +1,442 @@
+/* Dark mode — applied when html[data-theme="dark"] is set.
+   Works alongside existing data-color-theme (blue/indigo/…) accent system.
+   localStorage key: internal-reports-color-mode = light | dark | system
+*/
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #0b1220;
+  --surface-1: #111827;
+  --surface-2: #1a2332;
+  --surface-3: #243044;
+  --surface-elevated: #1e293b;
+  --border-subtle: #2a3648;
+  --border-strong: #3d4f66;
+  --text-primary: #e8eef7;
+  --text-secondary: #a8b3c7;
+  --text-muted: #7a879c;
+  --text-inverse: #0b1220;
+  --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --overlay-scrim: rgba(2, 6, 14, 0.72);
+  --input-bg: #151d2b;
+  --input-border: #2f3d52;
+  --table-stripe: rgba(255, 255, 255, 0.03);
+  --danger-bg: #3b1212;
+  --danger-text: #fca5a5;
+  --warning-bg: #3b2a0a;
+  --warning-text: #fcd34d;
+  --success-bg: #0c2e1e;
+  --success-text: #6ee7b7;
+  --info-bg: #0c1e3b;
+  --info-text: #93c5fd;
+}
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] .app-shell,
+html[data-theme="dark"] .main-content,
+html[data-theme="dark"] .page-content {
+  background: var(--surface-0);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .sidebar {
+  background: var(--surface-1);
+  border-color: var(--border-subtle);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .panel,
+html[data-theme="dark"] .metric-card,
+html[data-theme="dark"] .login-card,
+html[data-theme="dark"] .modal-sheet {
+  background: var(--surface-2);
+  border-color: var(--border-subtle);
+  box-shadow: var(--shadow-card);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .topbar,
+html[data-theme="dark"] .module-intro,
+html[data-theme="dark"] .management-toolbar {
+  background: var(--surface-1);
+  border-color: var(--border-subtle);
+}
+
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] .login-input,
+html[data-theme="dark"] .search-box {
+  background: var(--input-bg);
+  border-color: var(--input-border);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: var(--text-muted);
+}
+
+html[data-theme="dark"] .nav-item,
+html[data-theme="dark"] .secondary-button,
+html[data-theme="dark"] .icon-button {
+  color: var(--text-secondary);
+  border-color: var(--border-subtle);
+}
+
+html[data-theme="dark"] .nav-item:hover,
+html[data-theme="dark"] .nav-item.active,
+html[data-theme="dark"] .secondary-button:hover {
+  background: var(--surface-3);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] table thead {
+  background: var(--surface-3);
+  color: var(--text-secondary);
+}
+
+html[data-theme="dark"] table tbody tr:nth-child(even) {
+  background: var(--table-stripe);
+}
+
+html[data-theme="dark"] table td,
+html[data-theme="dark"] table th {
+  border-color: var(--border-subtle);
+}
+
+html[data-theme="dark"] .toast {
+  background: var(--surface-elevated);
+  color: var(--text-primary);
+  border-color: var(--border-strong);
+  box-shadow: var(--shadow-soft);
+}
+
+html[data-theme="dark"] .toast-error {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+html[data-theme="dark"] .modal-backdrop {
+  background: var(--overlay-scrim);
+}
+
+html[data-theme="dark"] .mobile-bottom-nav {
+  background: var(--surface-1);
+  border-color: var(--border-subtle);
+}
+
+html[data-theme="dark"] .brand-row strong,
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3 {
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .section-kicker,
+html[data-theme="dark"] small,
+html[data-theme="dark"] .eyebrow {
+  color: var(--text-muted);
+}
+
+/* Scientific research in the Information Center, including its portalled dialogs. */
+html[data-theme="dark"] .research-report-panel .research-workspace,
+html[data-theme="dark"] .research-dialog-content {
+  --background: var(--surface-1);
+  --foreground: var(--text-primary);
+  --card: var(--surface-2);
+  --card-foreground: var(--text-primary);
+  --popover: var(--surface-elevated);
+  --popover-foreground: var(--text-primary);
+  --muted: var(--surface-3);
+  --muted-foreground: var(--text-secondary);
+  --accent: var(--surface-3);
+  --accent-foreground: var(--text-primary);
+  --border: var(--border-subtle);
+  --input: var(--input-border);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace [data-slot="card"],
+html[data-theme="dark"] .research-dialog-content {
+  border-color: var(--border-subtle);
+  background-color: var(--surface-2);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace [data-slot="card"].from-emerald-50 {
+  background-image: none;
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-white,
+html[data-theme="dark"] .research-dialog-content .bg-white {
+  border-color: var(--border-subtle);
+  background-color: var(--surface-2);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-slate-50,
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-slate-100,
+html[data-theme="dark"] .research-report-panel .research-workspace [class~="bg-blue-50/50"],
+html[data-theme="dark"] .research-dialog-content .bg-slate-50,
+html[data-theme="dark"] .research-dialog-content .bg-slate-100,
+html[data-theme="dark"] .research-dialog-content [class~="bg-blue-50/50"] {
+  border-color: var(--border-subtle);
+  background-color: var(--surface-3);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-blue-50,
+html[data-theme="dark"] .research-dialog-content .bg-blue-50 { background-color: var(--info-bg); }
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-amber-50,
+html[data-theme="dark"] .research-dialog-content .bg-amber-50 { background-color: var(--warning-bg); }
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-emerald-50,
+html[data-theme="dark"] .research-dialog-content .bg-emerald-50 { background-color: var(--success-bg); }
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-violet-50,
+html[data-theme="dark"] .research-dialog-content .bg-violet-50 { background-color: #251c48; }
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-rose-50,
+html[data-theme="dark"] .research-dialog-content .bg-rose-50 { background-color: var(--danger-bg); }
+
+html[data-theme="dark"] .research-report-panel .research-workspace .text-slate-900,
+html[data-theme="dark"] .research-report-panel .research-workspace .text-slate-800,
+html[data-theme="dark"] .research-dialog-content .text-slate-900,
+html[data-theme="dark"] .research-dialog-content .text-slate-800 {
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace .text-slate-700,
+html[data-theme="dark"] .research-report-panel .research-workspace .text-slate-600,
+html[data-theme="dark"] .research-dialog-content .text-slate-700,
+html[data-theme="dark"] .research-dialog-content .text-slate-600 {
+  color: var(--text-secondary);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace .text-slate-500,
+html[data-theme="dark"] .research-report-panel .research-workspace .text-slate-400,
+html[data-theme="dark"] .research-dialog-content .text-slate-500,
+html[data-theme="dark"] .research-dialog-content .text-slate-400 {
+  color: var(--text-muted);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace .text-blue-700,
+html[data-theme="dark"] .research-dialog-content .text-blue-700 { color: #93c5fd; }
+html[data-theme="dark"] .research-report-panel .research-workspace [class~="text-[#0a4c8c]"],
+html[data-theme="dark"] .research-dialog-content [class~="text-[#0a4c8c]"] { color: #7dd3fc; }
+html[data-theme="dark"] .research-report-panel .research-workspace .text-amber-600,
+html[data-theme="dark"] .research-report-panel .research-workspace .text-amber-700,
+html[data-theme="dark"] .research-report-panel .research-workspace .text-amber-800,
+html[data-theme="dark"] .research-dialog-content .text-amber-600,
+html[data-theme="dark"] .research-dialog-content .text-amber-700,
+html[data-theme="dark"] .research-dialog-content .text-amber-800 { color: #fcd34d; }
+html[data-theme="dark"] .research-report-panel .research-workspace .text-emerald-700,
+html[data-theme="dark"] .research-dialog-content .text-emerald-700 { color: #6ee7b7; }
+html[data-theme="dark"] .research-report-panel .research-workspace .text-violet-700,
+html[data-theme="dark"] .research-dialog-content .text-violet-700 { color: #c4b5fd; }
+html[data-theme="dark"] .research-report-panel .research-workspace .text-rose-600,
+html[data-theme="dark"] .research-report-panel .research-workspace .text-rose-700,
+html[data-theme="dark"] .research-dialog-content .text-rose-600,
+html[data-theme="dark"] .research-dialog-content .text-rose-700 { color: #fca5a5; }
+
+html[data-theme="dark"] .research-report-panel .research-workspace .bg-amber-400.text-slate-900,
+html[data-theme="dark"] .research-dialog-content .bg-amber-400.text-slate-900 {
+  color: #172033;
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace th,
+html[data-theme="dark"] .research-report-panel .research-workspace [data-slot="table-head"],
+html[data-theme="dark"] .research-dialog-content th,
+html[data-theme="dark"] .research-dialog-content [data-slot="table-head"] {
+  border-color: var(--border-subtle);
+  background: var(--surface-3);
+  color: var(--text-secondary);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace td,
+html[data-theme="dark"] .research-dialog-content td {
+  border-color: var(--border-subtle);
+  color: var(--text-secondary);
+}
+
+html[data-theme="dark"] .research-report-panel .research-workspace input,
+html[data-theme="dark"] .research-report-panel .research-workspace textarea,
+html[data-theme="dark"] .research-report-panel .research-workspace [data-slot="select-trigger"],
+html[data-theme="dark"] .research-dialog-content input,
+html[data-theme="dark"] .research-dialog-content textarea,
+html[data-theme="dark"] .research-dialog-content [data-slot="select-trigger"] {
+  border-color: var(--input-border);
+  background: var(--input-bg);
+  color: var(--text-primary);
+}
+
+html[data-theme="dark"] body:has(.research-report-panel) [data-slot="select-content"] {
+  --popover: var(--surface-elevated);
+  --popover-foreground: var(--text-primary);
+  --accent: var(--surface-3);
+  --accent-foreground: var(--text-primary);
+  --border: var(--border-subtle);
+  border-color: var(--border-subtle);
+  background: var(--surface-elevated);
+  color: var(--text-primary);
+}
+
+/* Mode toggle control */
+.theme-mode-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--border-subtle, #d7e0eb);
+  border-radius: 999px;
+  padding: 0.2rem;
+  background: transparent;
+}
+
+.theme-mode-toggle button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  border-radius: 999px;
+  padding: 0.35rem 0.55rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.theme-mode-toggle button.active {
+  background: var(--surface-3, var(--c-blue-96-4));
+  font-weight: 600;
+}
+
+html[data-theme="dark"] .theme-mode-toggle button.active {
+  background: var(--surface-3);
+}
+
+/* Screen-reader only (ThemeModeToggle labels) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Notification preferences panel */
+.notification-prefs-panel {
+  display: grid;
+  gap: 0.9rem;
+  padding: 1.1rem 1.2rem;
+  border: 1px solid var(--border-subtle, #d7e0eb);
+  border-radius: 16px;
+  background: var(--surface-2, var(--c-white));
+}
+
+.notification-prefs-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.notification-prefs-header strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.notification-prefs-header .section-kicker,
+.notification-prefs-hint {
+  color: var(--text-muted, var(--c-gray-46));
+  margin: 0.2rem 0 0;
+}
+
+.notification-prefs-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0;
+  border-top: 1px solid var(--border-subtle, #e8eef5);
+}
+
+.notification-prefs-row strong {
+  display: block;
+}
+
+.notification-prefs-row small {
+  color: var(--text-muted, var(--c-gray-46));
+}
+
+.notification-prefs-hours {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.notification-prefs-hours label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+}
+
+.notification-prefs-hours input[type="time"] {
+  min-height: 2.4rem;
+  border-radius: 10px;
+  border: 1px solid var(--input-border, #d7e0eb);
+  background: var(--input-bg, var(--c-white));
+  color: inherit;
+  padding: 0.4rem 0.6rem;
+}
+
+.notification-prefs-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.notification-prefs-ok {
+  color: var(--success-text, #087a4f);
+}
+
+.notification-prefs-error {
+  color: var(--danger-text, #b42318);
+}
+
+html[data-theme="dark"] .notification-prefs-panel {
+  background: var(--surface-2);
+  border-color: var(--border-subtle);
+}
+
+html[data-theme="dark"] .notification-prefs-row {
+  border-top-color: var(--border-subtle);
+}
+
+.login-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.security-page .notification-prefs-panel {
+  margin-top: 1rem;
+}
+
+.topbar .theme-mode-toggle,
+.password-gate-actions .theme-mode-toggle {
+  flex-shrink: 0;
+}
+
+@media (max-width: 720px) {
+  .theme-mode-toggle span:not(.sr-only) {
+    display: none;
+  }
+
+  .theme-mode-toggle button {
+    padding: 0.4rem 0.5rem;
+  }
+}

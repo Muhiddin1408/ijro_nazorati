@@ -1,0 +1,2086 @@
+{
+  "SRC_PRESS_SERVICE_MEDIA_COVERAGE": {
+    "sourceVersion": "source-workbooks-2026-08",
+    "records": [
+      {
+        "title": "Yo‘l qurilishi bo‘yicha telelavha",
+        "values": {
+          "nomi": "Yo‘l qurilishi bo‘yicha telelavha",
+          "yol_sohasiga_oid_material": "A-380 G‘uzor–Buxoro–Nukus–Beyneu",
+          "hudud": "Qoraqalpog‘iston Respublikasi",
+          "elon_sanasi": "2026-01-10",
+          "oav_nomi": "OAV nomi bo‘yicha 1-namuna",
+          "oav_turi": null,
+          "material_havolasi": "https://uzavtoyul.uz"
+        },
+        "source": {
+          "file": "oav-monitoringi.xlsx",
+          "sheet": "Ma’lumotlar",
+          "row": 6,
+          "range": "A6:H6"
+        }
+      },
+      {
+        "title": "Shaffof yo‘l platformasi bo‘yicha lavha",
+        "values": {
+          "nomi": "Shaffof yo‘l platformasi bo‘yicha lavha",
+          "yol_sohasiga_oid_material": "A-380 G‘uzor–Buxoro–Nukus–Beyneu",
+          "hudud": "Qoraqalpog‘iston Respublikasi",
+          "elon_sanasi": "2026-05-14",
+          "oav_nomi": "OAV nomi bo‘yicha 5-namuna",
+          "oav_turi": null,
+          "material_havolasi": "https://uzavtoyul.uz"
+        },
+        "source": {
+          "file": "oav-monitoringi.xlsx",
+          "sheet": "Ma’lumotlar",
+          "row": 7,
+          "range": "A7:H7"
+        }
+      }
+    ],
+    "metadata": {
+      "recordCount": 2,
+      "sourceRows": 2,
+      "blankOavTypeCount": 2
+    }
+  },
+  "SRC_APPEALS_CALL_CENTER_APPEALS": {
+    "sourceVersion": "source-workbooks-2026-08",
+    "records": [
+      {
+        "title": "Қорақалпоғистон Республикаси",
+        "values": {
+          "hudud": "Қорақалпоғистон Республикаси",
+          "murojaatlar_soni": 195,
+          "ulushi": 0.03529411764705882,
+          "yol_tamirlash": 25,
+          "qamchiq_dovonidagi_holat": 10,
+          "tarozi": 49,
+          "hududlardagi_ob_havo": 29,
+          "yol_holati": 35,
+          "boshqalar": 47
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 8,
+          "range": "A8:J8"
+        }
+      },
+      {
+        "title": "Андижон вилояти",
+        "values": {
+          "hudud": "Андижон вилояти",
+          "murojaatlar_soni": 468,
+          "ulushi": 0.08470588235294117,
+          "yol_tamirlash": 29,
+          "qamchiq_dovonidagi_holat": 45,
+          "tarozi": 54,
+          "hududlardagi_ob_havo": 181,
+          "yol_holati": 92,
+          "boshqalar": 67
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 9,
+          "range": "A9:J9"
+        }
+      },
+      {
+        "title": "Бухоро вилояти",
+        "values": {
+          "hudud": "Бухоро вилояти",
+          "murojaatlar_soni": 204,
+          "ulushi": 0.036923076923076927,
+          "yol_tamirlash": 16,
+          "qamchiq_dovonidagi_holat": 11,
+          "tarozi": 59,
+          "hududlardagi_ob_havo": 28,
+          "yol_holati": 41,
+          "boshqalar": 49
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 10,
+          "range": "A10:J10"
+        }
+      },
+      {
+        "title": "Жиззах вилояти",
+        "values": {
+          "hudud": "Жиззах вилояти",
+          "murojaatlar_soni": 291,
+          "ulushi": 0.05266968325791855,
+          "yol_tamirlash": 25,
+          "qamchiq_dovonidagi_holat": 26,
+          "tarozi": 73,
+          "hududlardagi_ob_havo": 51,
+          "yol_holati": 55,
+          "boshqalar": 61
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 11,
+          "range": "A11:J11"
+        }
+      },
+      {
+        "title": "Қашқадарё вилояти",
+        "values": {
+          "hudud": "Қашқадарё вилояти",
+          "murojaatlar_soni": 394,
+          "ulushi": 0.07131221719457013,
+          "yol_tamirlash": 68,
+          "qamchiq_dovonidagi_holat": 31,
+          "tarozi": 72,
+          "hududlardagi_ob_havo": 102,
+          "yol_holati": 52,
+          "boshqalar": 69
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 12,
+          "range": "A12:J12"
+        }
+      },
+      {
+        "title": "Навоий вилояти",
+        "values": {
+          "hudud": "Навоий вилояти",
+          "murojaatlar_soni": 225,
+          "ulushi": 0.04072398190045249,
+          "yol_tamirlash": 27,
+          "qamchiq_dovonidagi_holat": 12,
+          "tarozi": 48,
+          "hududlardagi_ob_havo": 42,
+          "yol_holati": 37,
+          "boshqalar": 59
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 13,
+          "range": "A13:J13"
+        }
+      },
+      {
+        "title": "Наманган вилояти",
+        "values": {
+          "hudud": "Наманган вилояти",
+          "murojaatlar_soni": 613,
+          "ulushi": 0.11095022624434389,
+          "yol_tamirlash": 35,
+          "qamchiq_dovonidagi_holat": 74,
+          "tarozi": 63,
+          "hududlardagi_ob_havo": 237,
+          "yol_holati": 132,
+          "boshqalar": 72
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 14,
+          "range": "A14:J14"
+        }
+      },
+      {
+        "title": "Самарқанд вилояти",
+        "values": {
+          "hudud": "Самарқанд вилояти",
+          "murojaatlar_soni": 681,
+          "ulushi": 0.1232579185520362,
+          "yol_tamirlash": 42,
+          "qamchiq_dovonidagi_holat": 31,
+          "tarozi": 426,
+          "hududlardagi_ob_havo": 68,
+          "yol_holati": 45,
+          "boshqalar": 69
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 15,
+          "range": "A15:J15"
+        }
+      },
+      {
+        "title": "Сурхондарё вилояти",
+        "values": {
+          "hudud": "Сурхондарё вилояти",
+          "murojaatlar_soni": 244,
+          "ulushi": 0.04416289592760181,
+          "yol_tamirlash": 28,
+          "qamchiq_dovonidagi_holat": 18,
+          "tarozi": 59,
+          "hududlardagi_ob_havo": 31,
+          "yol_holati": 43,
+          "boshqalar": 65
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 16,
+          "range": "A16:J16"
+        }
+      },
+      {
+        "title": "Сирдарё вилояти",
+        "values": {
+          "hudud": "Сирдарё вилояти",
+          "murojaatlar_soni": 219,
+          "ulushi": 0.039638009049773756,
+          "yol_tamirlash": 15,
+          "qamchiq_dovonidagi_holat": 22,
+          "tarozi": 41,
+          "hududlardagi_ob_havo": 36,
+          "yol_holati": 47,
+          "boshqalar": 58
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 17,
+          "range": "A17:J17"
+        }
+      },
+      {
+        "title": "Фарғона вилояти",
+        "values": {
+          "hudud": "Фарғона вилояти",
+          "murojaatlar_soni": 772,
+          "ulushi": 0.13972850678733031,
+          "yol_tamirlash": 13,
+          "qamchiq_dovonidagi_holat": 76,
+          "tarozi": 63,
+          "hududlardagi_ob_havo": 329,
+          "yol_holati": 212,
+          "boshqalar": 79
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 18,
+          "range": "A18:J18"
+        }
+      },
+      {
+        "title": "Хоразм вилояти",
+        "values": {
+          "hudud": "Хоразм вилояти",
+          "murojaatlar_soni": 228,
+          "ulushi": 0.04126696832579185,
+          "yol_tamirlash": 19,
+          "qamchiq_dovonidagi_holat": 17,
+          "tarozi": 65,
+          "hududlardagi_ob_havo": 27,
+          "yol_holati": 40,
+          "boshqalar": 60
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 19,
+          "range": "A19:J19"
+        }
+      },
+      {
+        "title": "Тошкент вилояти",
+        "values": {
+          "hudud": "Тошкент вилояти",
+          "murojaatlar_soni": 555,
+          "ulushi": 0.10045248868778281,
+          "yol_tamirlash": 78,
+          "qamchiq_dovonidagi_holat": 60,
+          "tarozi": 75,
+          "hududlardagi_ob_havo": 147,
+          "yol_holati": 121,
+          "boshqalar": 74
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 20,
+          "range": "A20:J20"
+        }
+      },
+      {
+        "title": "Тошкент шахар",
+        "values": {
+          "hudud": "Тошкент шахар",
+          "murojaatlar_soni": 436,
+          "ulushi": 0.07891402714932126,
+          "yol_tamirlash": 30,
+          "qamchiq_dovonidagi_holat": 44,
+          "tarozi": 102,
+          "hududlardagi_ob_havo": 94,
+          "yol_holati": 75,
+          "boshqalar": 91
+        },
+        "source": {
+          "file": "call markaz.xlsx",
+          "sheet": "Лист1",
+          "row": 21,
+          "range": "A21:J21"
+        }
+      }
+    ],
+    "metadata": {
+      "recordCount": 14,
+      "totals": {
+        "report_date": "2026-07-01",
+        "excel_serial": 46204,
+        "hudud": "Respublika bo‘yicha, jami",
+        "murojaatlar_soni": 5525,
+        "yol_tamirlash": 450,
+        "qamchiq_dovonidagi_holat": 477,
+        "tarozi": 1249,
+        "hududlardagi_ob_havo": 1402,
+        "yol_holati": 1027,
+        "boshqalar": 920
+      },
+      "ulushiStorage": "fraction (0..1)",
+      "duplicateAppealsWorkbookSheetExcluded": true
+    }
+  },
+  "SRC_ROAD_NETWORK_DEVELOPMENT_DEVELOPMENT_PROGRAMS": {
+    "sourceVersion": "source-workbooks-2026-08",
+    "records": [
+      {
+        "title": "4Р-176 \"Нукус ш.-Чимбай ш.-Тахтакўпир о.\" автомобиль йўлининг 0-14,3 км (9,3-14,3 км) қисмини реконструкция қилиш",
+        "values": {
+          "hudud": "Qoraqalpog‘iston Respublikasi",
+          "tuman": "Tuman ko‘rsatilmagan",
+          "yollar_tasnifi": null,
+          "obyekt_turi": "Rekonstruksiya",
+          "dastur_nomi": null,
+          "obyekt_nomi": "4Р-176 \"Нукус ш.-Чимбай ш.-Тахтакўпир о.\" автомобиль йўлининг 0-14,3 км (9,3-14,3 км) қисмини реконструкция қилиш",
+          "pudrat_tashkiloti": "QIPCHOQ YO'LLARDAN MUNTAZAM FOYDALANISH KORXI",
+          "olchov_birligi": "5 км",
+          "yilda_topshiriladigan_quvvat": 0,
+          "amalga_oshirish_muddati": "2025-2026",
+          "obyekt_umumiy_qiymati": 52182.67,
+          "qurilish_boshidan_bajarilgan_ish_hajmi": 0,
+          "yil_boshidagi_qoldiq_qiymati": 52182.67,
+          "yil_limiti": 20000,
+          "yil_shartnomaviy_qiymati": 43139.56,
+          "reja_km": 0,
+          "reja_qiymat": 43139.56,
+          "amalda_km": 0,
+          "amalda_qiymat": 0,
+          "davrga_nisbatan_km_foiz": 0,
+          "davrga_nisbatan_qiymat_foiz": 0,
+          "yillik_rejaga_nisbatan_km_foiz": 0,
+          "yillik_rejaga_nisbatan_qiymat_foiz": 0,
+          "moliyalashtirilgan_mablag": 0,
+          "izoh": null
+        },
+        "source": {
+          "file": "Qurilish va rekonstruksiya dasturlari.xlsx",
+          "sheet": "Объектлар",
+          "row": 4,
+          "range": "A4:U4"
+        }
+      },
+      {
+        "title": "А-380 \"Ғузор-Бухоро-Нукус-Бейнеу\" автомобил йўлининг 698-753 км (8-босқич 698-723 км, чап томон) қисмини реконструкция қилиш",
+        "values": {
+          "hudud": "Qoraqalpog‘iston Respublikasi",
+          "tuman": "Tuman ko‘rsatilmagan",
+          "yollar_tasnifi": null,
+          "obyekt_turi": "Rekonstruksiya",
+          "dastur_nomi": null,
+          "obyekt_nomi": "А-380 \"Ғузор-Бухоро-Нукус-Бейнеу\" автомобил йўлининг 698-753 км (8-босқич 698-723 км, чап томон) қисмини реконструкция қилиш",
+          "pudrat_tashkiloti": "Қорақалпоғистон Республикаси йўллардан мутазам фойдаланиш корхонаси",
+          "olchov_birligi": "25 км",
+          "yilda_topshiriladigan_quvvat": 15,
+          "amalga_oshirish_muddati": "2024-2026",
+          "obyekt_umumiy_qiymati": 138340.91,
+          "qurilish_boshidan_bajarilgan_ish_hajmi": 71938.23,
+          "yil_boshidagi_qoldiq_qiymati": 66402.67,
+          "yil_limiti": 16293.85,
+          "yil_shartnomaviy_qiymati": 66402.67,
+          "reja_km": 15,
+          "reja_qiymat": 66402.67,
+          "amalda_km": 0,
+          "amalda_qiymat": 1.52,
+          "davrga_nisbatan_km_foiz": 0,
+          "davrga_nisbatan_qiymat_foiz": 0,
+          "yillik_rejaga_nisbatan_km_foiz": 0,
+          "yillik_rejaga_nisbatan_qiymat_foiz": 0,
+          "moliyalashtirilgan_mablag": 0,
+          "izoh": null
+        },
+        "source": {
+          "file": "Qurilish va rekonstruksiya dasturlari.xlsx",
+          "sheet": "Объектлар",
+          "row": 5,
+          "range": "A5:U5"
+        }
+      }
+    ],
+    "metadata": {
+      "recordCount": 2,
+      "zeroSummarySheetsExcluded": [
+        "ҳудуд кесимида",
+        "туман кесимида"
+      ],
+      "totalsFromObjects": {
+        "obyektlar_soni": 2,
+        "reja_km": 15,
+        "reja_qiymat": 109542.23,
+        "amalda_km": 0,
+        "amalda_qiymat": 1.52
+      }
+    }
+  },
+  "SRC_APPEALS_APPEAL_RESULTS": {
+    "sourceVersion": "source-workbooks-2026-08",
+    "records": [
+      {
+        "title": "Qoraqalpog‘iston Respublikasi",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Qoraqalpog‘iston Respublikasi",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 104,
+          "jami_taqqoslash": 117,
+          "jismoniy_asosiy": 62,
+          "jismoniy_taqqoslash": 69,
+          "yuridik_asosiy": 42,
+          "yuridik_taqqoslash": 48,
+          "yozma_asosiy": 45,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 40,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 19,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 68,
+          "ariza_taqqoslash": 72,
+          "shikoyat_asosiy": 28,
+          "shikoyat_taqqoslash": 33,
+          "taklif_asosiy": 8,
+          "taklif_taqqoslash": 12,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 49,
+          "hududiy_idoralarga_yuborilgan": 50,
+          "tegishli_idoralarga_yuborilgan": 3
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 9,
+          "sourceRanges": [
+            "'3 жадвал'!A9:W9",
+            "'5 жадвал'!A11:T11"
+          ]
+        }
+      },
+      {
+        "title": "Andijon",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Andijon",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 88,
+          "jami_taqqoslash": 110,
+          "jismoniy_asosiy": 44,
+          "jismoniy_taqqoslash": 56,
+          "yuridik_asosiy": 44,
+          "yuridik_taqqoslash": 54,
+          "yozma_asosiy": 26,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 40,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 22,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 62,
+          "ariza_taqqoslash": 67,
+          "shikoyat_asosiy": 17,
+          "shikoyat_taqqoslash": 29,
+          "taklif_asosiy": 9,
+          "taklif_taqqoslash": 14,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 1,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 36,
+          "hududiy_idoralarga_yuborilgan": 46,
+          "tegishli_idoralarga_yuborilgan": 5
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 10,
+          "sourceRanges": [
+            "'3 жадвал'!A10:W10",
+            "'5 жадвал'!A12:T12"
+          ]
+        }
+      },
+      {
+        "title": "Buxoro",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Buxoro",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 90,
+          "jami_taqqoslash": 99,
+          "jismoniy_asosiy": 44,
+          "jismoniy_taqqoslash": 49,
+          "yuridik_asosiy": 46,
+          "yuridik_taqqoslash": 50,
+          "yozma_asosiy": 28,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 33,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 29,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 52,
+          "ariza_taqqoslash": 54,
+          "shikoyat_asosiy": 28,
+          "shikoyat_taqqoslash": 32,
+          "taklif_asosiy": 10,
+          "taklif_taqqoslash": 13,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 45,
+          "hududiy_idoralarga_yuborilgan": 42,
+          "tegishli_idoralarga_yuborilgan": 1
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 11,
+          "sourceRanges": [
+            "'3 жадвал'!A11:W11",
+            "'5 жадвал'!A13:T13"
+          ]
+        }
+      },
+      {
+        "title": "Jizzax",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Jizzax",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 83,
+          "jami_taqqoslash": 105,
+          "jismoniy_asosiy": 49,
+          "jismoniy_taqqoslash": 58,
+          "yuridik_asosiy": 34,
+          "yuridik_taqqoslash": 47,
+          "yozma_asosiy": 29,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 38,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 16,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 43,
+          "ariza_taqqoslash": 52,
+          "shikoyat_asosiy": 36,
+          "shikoyat_taqqoslash": 46,
+          "taklif_asosiy": 4,
+          "taklif_taqqoslash": 7,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 43,
+          "hududiy_idoralarga_yuborilgan": 37,
+          "tegishli_idoralarga_yuborilgan": 1
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 12,
+          "sourceRanges": [
+            "'3 жадвал'!A12:W12",
+            "'5 жадвал'!A14:T14"
+          ]
+        }
+      },
+      {
+        "title": "Qashqadaryo",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Qashqadaryo",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 95,
+          "jami_taqqoslash": 105,
+          "jismoniy_asosiy": 60,
+          "jismoniy_taqqoslash": 65,
+          "yuridik_asosiy": 35,
+          "yuridik_taqqoslash": 40,
+          "yozma_asosiy": 30,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 52,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 13,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 60,
+          "ariza_taqqoslash": 64,
+          "shikoyat_asosiy": 26,
+          "shikoyat_taqqoslash": 29,
+          "taklif_asosiy": 9,
+          "taklif_taqqoslash": 12,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 40,
+          "hududiy_idoralarga_yuborilgan": 52,
+          "tegishli_idoralarga_yuborilgan": 1
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 13,
+          "sourceRanges": [
+            "'3 жадвал'!A13:W13",
+            "'5 жадвал'!A15:T15"
+          ]
+        }
+      },
+      {
+        "title": "Navoiy",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Navoiy",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 77,
+          "jami_taqqoslash": 90,
+          "jismoniy_asosiy": 47,
+          "jismoniy_taqqoslash": 56,
+          "yuridik_asosiy": 30,
+          "yuridik_taqqoslash": 34,
+          "yozma_asosiy": 20,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 30,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 27,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 42,
+          "ariza_taqqoslash": 48,
+          "shikoyat_asosiy": 28,
+          "shikoyat_taqqoslash": 32,
+          "taklif_asosiy": 7,
+          "taklif_taqqoslash": 10,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 1,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 34,
+          "hududiy_idoralarga_yuborilgan": 42,
+          "tegishli_idoralarga_yuborilgan": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 14,
+          "sourceRanges": [
+            "'3 жадвал'!A14:W14",
+            "'5 жадвал'!A16:T16"
+          ]
+        }
+      },
+      {
+        "title": "Namangan",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Namangan",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 91,
+          "jami_taqqoslash": 102,
+          "jismoniy_asosiy": 57,
+          "jismoniy_taqqoslash": 64,
+          "yuridik_asosiy": 34,
+          "yuridik_taqqoslash": 38,
+          "yozma_asosiy": 26,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 39,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 26,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 47,
+          "ariza_taqqoslash": 51,
+          "shikoyat_asosiy": 31,
+          "shikoyat_taqqoslash": 34,
+          "taklif_asosiy": 13,
+          "taklif_taqqoslash": 17,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 3,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 40,
+          "hududiy_idoralarga_yuborilgan": 48,
+          "tegishli_idoralarga_yuborilgan": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 15,
+          "sourceRanges": [
+            "'3 жадвал'!A15:W15",
+            "'5 жадвал'!A17:T17"
+          ]
+        }
+      },
+      {
+        "title": "Samarqand",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Samarqand",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 87,
+          "jami_taqqoslash": 100,
+          "jismoniy_asosiy": 62,
+          "jismoniy_taqqoslash": 69,
+          "yuridik_asosiy": 25,
+          "yuridik_taqqoslash": 31,
+          "yozma_asosiy": 31,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 33,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 23,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 49,
+          "ariza_taqqoslash": 55,
+          "shikoyat_asosiy": 33,
+          "shikoyat_taqqoslash": 38,
+          "taklif_asosiy": 5,
+          "taklif_taqqoslash": 7,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 29,
+          "hududiy_idoralarga_yuborilgan": 56,
+          "tegishli_idoralarga_yuborilgan": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 16,
+          "sourceRanges": [
+            "'3 жадвал'!A16:W16",
+            "'5 жадвал'!A18:T18"
+          ]
+        }
+      },
+      {
+        "title": "Sirdaryo",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Sirdaryo",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 95,
+          "jami_taqqoslash": 102,
+          "jismoniy_asosiy": 72,
+          "jismoniy_taqqoslash": 76,
+          "yuridik_asosiy": 23,
+          "yuridik_taqqoslash": 26,
+          "yozma_asosiy": 46,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 47,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 2,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 50,
+          "ariza_taqqoslash": 53,
+          "shikoyat_asosiy": 40,
+          "shikoyat_taqqoslash": 42,
+          "taklif_asosiy": 5,
+          "taklif_taqqoslash": 7,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 45,
+          "hududiy_idoralarga_yuborilgan": 46,
+          "tegishli_idoralarga_yuborilgan": 2
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 17,
+          "sourceRanges": [
+            "'3 жадвал'!A17:W17",
+            "'5 жадвал'!A19:T19"
+          ]
+        }
+      },
+      {
+        "title": "Surxondaryo",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Surxondaryo",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 85,
+          "jami_taqqoslash": 92,
+          "jismoniy_asosiy": 76,
+          "jismoniy_taqqoslash": 58,
+          "yuridik_asosiy": 9,
+          "yuridik_taqqoslash": 34,
+          "yozma_asosiy": 19,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 44,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 22,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 65,
+          "ariza_taqqoslash": 55,
+          "shikoyat_asosiy": 17,
+          "shikoyat_taqqoslash": 30,
+          "taklif_asosiy": 3,
+          "taklif_taqqoslash": 7,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 6,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 29,
+          "hududiy_idoralarga_yuborilgan": 49,
+          "tegishli_idoralarga_yuborilgan": 1
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 18,
+          "sourceRanges": [
+            "'3 жадвал'!A18:W18",
+            "'5 жадвал'!A20:T20"
+          ]
+        }
+      },
+      {
+        "title": "Toshkent",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Toshkent",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 195,
+          "jami_taqqoslash": 201,
+          "jismoniy_asosiy": 112,
+          "jismoniy_taqqoslash": 115,
+          "yuridik_asosiy": 83,
+          "yuridik_taqqoslash": 86,
+          "yozma_asosiy": 121,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 49,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 25,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 110,
+          "ariza_taqqoslash": 112,
+          "shikoyat_asosiy": 70,
+          "shikoyat_taqqoslash": 72,
+          "taklif_asosiy": 15,
+          "taklif_taqqoslash": 17,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 4,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 90,
+          "hududiy_idoralarga_yuborilgan": 98,
+          "tegishli_idoralarga_yuborilgan": 3
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 19,
+          "sourceRanges": [
+            "'3 жадвал'!A19:W19",
+            "'5 жадвал'!A21:T21"
+          ]
+        }
+      },
+      {
+        "title": "Farg‘ona",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Farg‘ona",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 85,
+          "jami_taqqoslash": 101,
+          "jismoniy_asosiy": 57,
+          "jismoniy_taqqoslash": 65,
+          "yuridik_asosiy": 28,
+          "yuridik_taqqoslash": 36,
+          "yozma_asosiy": 41,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 31,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 13,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 52,
+          "ariza_taqqoslash": 58,
+          "shikoyat_asosiy": 29,
+          "shikoyat_taqqoslash": 32,
+          "taklif_asosiy": 4,
+          "taklif_taqqoslash": 11,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 1,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 36,
+          "hududiy_idoralarga_yuborilgan": 47,
+          "tegishli_idoralarga_yuborilgan": 1
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 20,
+          "sourceRanges": [
+            "'3 жадвал'!A20:W20",
+            "'5 жадвал'!A22:T22"
+          ]
+        }
+      },
+      {
+        "title": "Xorazm",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Xorazm",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 75,
+          "jami_taqqoslash": 88,
+          "jismoniy_asosiy": 42,
+          "jismoniy_taqqoslash": 49,
+          "yuridik_asosiy": 33,
+          "yuridik_taqqoslash": 39,
+          "yozma_asosiy": 25,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 29,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 21,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 43,
+          "ariza_taqqoslash": 48,
+          "shikoyat_asosiy": 24,
+          "shikoyat_taqqoslash": 28,
+          "taklif_asosiy": 8,
+          "taklif_taqqoslash": 12,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 2,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 34,
+          "hududiy_idoralarga_yuborilgan": 37,
+          "tegishli_idoralarga_yuborilgan": 2
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 21,
+          "sourceRanges": [
+            "'3 жадвал'!A21:W21",
+            "'5 жадвал'!A23:T23"
+          ]
+        }
+      },
+      {
+        "title": "Toshkent shahar",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Toshkent shahar",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 65,
+          "jami_taqqoslash": 69,
+          "jismoniy_asosiy": 42,
+          "jismoniy_taqqoslash": 45,
+          "yuridik_asosiy": 23,
+          "yuridik_taqqoslash": 24,
+          "yozma_asosiy": 30,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 12,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 23,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 41,
+          "ariza_taqqoslash": 43,
+          "shikoyat_asosiy": 18,
+          "shikoyat_taqqoslash": 19,
+          "taklif_asosiy": 6,
+          "taklif_taqqoslash": 7,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 1,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 34,
+          "hududiy_idoralarga_yuborilgan": 29,
+          "tegishli_idoralarga_yuborilgan": 1
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 22,
+          "sourceRanges": [
+            "'3 жадвал'!A22:W22",
+            "'5 жадвал'!A24:T24"
+          ]
+        }
+      },
+      {
+        "title": "Boshqa hududdan",
+        "values": {
+          "kesim": "hudud",
+          "hudud": "Boshqa hududdan",
+          "murojaat_mavzusi": null,
+          "jami_asosiy": 0,
+          "jami_taqqoslash": 13,
+          "jismoniy_asosiy": 0,
+          "jismoniy_taqqoslash": 9,
+          "yuridik_asosiy": 0,
+          "yuridik_taqqoslash": 4,
+          "yozma_asosiy": 0,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": 0,
+          "elektron_taqqoslash": null,
+          "ogzaki_asosiy": 0,
+          "ogzaki_taqqoslash": null,
+          "ariza_asosiy": 0,
+          "ariza_taqqoslash": 7,
+          "shikoyat_asosiy": 0,
+          "shikoyat_taqqoslash": 3,
+          "taklif_asosiy": 0,
+          "taklif_taqqoslash": 3,
+          "nazoratga_olingan": null,
+          "chora_korildi": null,
+          "tushuntirildi": null,
+          "rad_etildi": null,
+          "korib_chiqilmoqda": 0,
+          "takroriy": null,
+          "muddati_buzilgan": null,
+          "apparatda_korilgan": 0,
+          "hududiy_idoralarga_yuborilgan": 0,
+          "tegishli_idoralarga_yuborilgan": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "3 жадвал + 5 жадвал",
+          "row": 23,
+          "sourceRanges": [
+            "'3 жадвал'!A23:W23",
+            "'5 жадвал'!A25:T25"
+          ]
+        }
+      },
+      {
+        "title": "Avtomobil yo‘llarni qurish",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Avtomobil yo‘llarni qurish",
+          "jami_asosiy": 311,
+          "jami_taqqoslash": 215,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 86,
+          "yozma_taqqoslash": 110,
+          "elektron_asosiy": 159,
+          "elektron_taqqoslash": 94,
+          "ogzaki_asosiy": 66,
+          "ogzaki_taqqoslash": 11,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 311,
+          "chora_korildi": 261,
+          "tushuntirildi": 46,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 4,
+          "takroriy": 2,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 8,
+          "range": "A8:Q8"
+        }
+      },
+      {
+        "title": "Avtomobil yo‘llarni ta'mirlash",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Avtomobil yo‘llarni ta'mirlash",
+          "jami_asosiy": 545,
+          "jami_taqqoslash": 723,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 254,
+          "yozma_taqqoslash": 335,
+          "elektron_asosiy": 227,
+          "elektron_taqqoslash": 338,
+          "ogzaki_asosiy": 64,
+          "ogzaki_taqqoslash": 50,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 545,
+          "chora_korildi": 475,
+          "tushuntirildi": 64,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 6,
+          "takroriy": 2,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 9,
+          "range": "A9:Q9"
+        }
+      },
+      {
+        "title": "Ichki yo‘llarni ta'mirlash",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Ichki yo‘llarni ta'mirlash",
+          "jami_asosiy": 144,
+          "jami_taqqoslash": 206,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 65,
+          "yozma_taqqoslash": 101,
+          "elektron_asosiy": 44,
+          "elektron_taqqoslash": 85,
+          "ogzaki_asosiy": 35,
+          "ogzaki_taqqoslash": 20,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 144,
+          "chora_korildi": 120,
+          "tushuntirildi": 19,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 5,
+          "takroriy": 2,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 10,
+          "range": "A10:Q10"
+        }
+      },
+      {
+        "title": "Avtomobil yo‘llaridagi chiroqlarni yoqib berish",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Avtomobil yo‘llaridagi chiroqlarni yoqib berish",
+          "jami_asosiy": 67,
+          "jami_taqqoslash": 69,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 28,
+          "yozma_taqqoslash": 38,
+          "elektron_asosiy": 10,
+          "elektron_taqqoslash": 21,
+          "ogzaki_asosiy": 29,
+          "ogzaki_taqqoslash": 10,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 67,
+          "chora_korildi": 53,
+          "tushuntirildi": 10,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 4,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 11,
+          "range": "A11:Q11"
+        }
+      },
+      {
+        "title": "Avtobekatlarni ta'mirlash do‘konga aylantirish",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Avtobekatlarni ta'mirlash do‘konga aylantirish",
+          "jami_asosiy": 54,
+          "jami_taqqoslash": 67,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 17,
+          "yozma_taqqoslash": 33,
+          "elektron_asosiy": 15,
+          "elektron_taqqoslash": 31,
+          "ogzaki_asosiy": 22,
+          "ogzaki_taqqoslash": 3,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 54,
+          "chora_korildi": 39,
+          "tushuntirildi": 12,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 3,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 12,
+          "range": "A12:Q12"
+        }
+      },
+      {
+        "title": "Yo‘l belgilarini o‘rnatish",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Yo‘l belgilarini o‘rnatish",
+          "jami_asosiy": 66,
+          "jami_taqqoslash": 42,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 18,
+          "yozma_taqqoslash": 19,
+          "elektron_asosiy": 23,
+          "elektron_taqqoslash": 15,
+          "ogzaki_asosiy": 25,
+          "ogzaki_taqqoslash": 8,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 66,
+          "chora_korildi": 48,
+          "tushuntirildi": 13,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 5,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 13,
+          "range": "A13:Q13"
+        }
+      },
+      {
+        "title": "Yo‘l chekkalarini obodonlashtirish",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Yo‘l chekkalarini obodonlashtirish",
+          "jami_asosiy": 43,
+          "jami_taqqoslash": 40,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 22,
+          "yozma_taqqoslash": 24,
+          "elektron_asosiy": 12,
+          "elektron_taqqoslash": 11,
+          "ogzaki_asosiy": 9,
+          "ogzaki_taqqoslash": 5,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 43,
+          "chora_korildi": 30,
+          "tushuntirildi": 12,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 1,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 14,
+          "range": "A14:Q14"
+        }
+      },
+      {
+        "title": "Uy masalasi",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Uy masalasi",
+          "jami_asosiy": 3,
+          "jami_taqqoslash": 6,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 1,
+          "yozma_taqqoslash": 2,
+          "elektron_asosiy": 1,
+          "elektron_taqqoslash": 2,
+          "ogzaki_asosiy": 1,
+          "ogzaki_taqqoslash": 2,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 3,
+          "chora_korildi": 1,
+          "tushuntirildi": 2,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 0,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 15,
+          "range": "A15:Q15"
+        }
+      },
+      {
+        "title": "Debitor qarzdorliklar",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Debitor qarzdorliklar",
+          "jami_asosiy": 27,
+          "jami_taqqoslash": 24,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 10,
+          "yozma_taqqoslash": 13,
+          "elektron_asosiy": 6,
+          "elektron_taqqoslash": 9,
+          "ogzaki_asosiy": 11,
+          "ogzaki_taqqoslash": 2,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 27,
+          "chora_korildi": 19,
+          "tushuntirildi": 8,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 0,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 16,
+          "range": "A16:Q16"
+        }
+      },
+      {
+        "title": "Ko‘prik qurilish",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Ko‘prik qurilish",
+          "jami_asosiy": 31,
+          "jami_taqqoslash": 38,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 12,
+          "yozma_taqqoslash": 22,
+          "elektron_asosiy": 8,
+          "elektron_taqqoslash": 11,
+          "ogzaki_asosiy": 11,
+          "ogzaki_taqqoslash": 5,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 31,
+          "chora_korildi": 15,
+          "tushuntirildi": 14,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 2,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 17,
+          "range": "A17:Q17"
+        }
+      },
+      {
+        "title": "Tizim tashkilotlari rahbarlarining xatti harakatlari",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Tizim tashkilotlari rahbarlarining xatti harakatlari",
+          "jami_asosiy": 13,
+          "jami_taqqoslash": 24,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 3,
+          "yozma_taqqoslash": 11,
+          "elektron_asosiy": 6,
+          "elektron_taqqoslash": 9,
+          "ogzaki_asosiy": 4,
+          "ogzaki_taqqoslash": 4,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 13,
+          "chora_korildi": 7,
+          "tushuntirildi": 4,
+          "rad_etildi": 1,
+          "korib_chiqilmoqda": 1,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 18,
+          "range": "A18:Q18"
+        }
+      },
+      {
+        "title": "Ishga qayta tiklash",
+        "values": {
+          "kesim": "mavzu",
+          "hudud": null,
+          "murojaat_mavzusi": "Ishga qayta tiklash",
+          "jami_asosiy": 11,
+          "jami_taqqoslash": 40,
+          "jismoniy_asosiy": null,
+          "jismoniy_taqqoslash": null,
+          "yuridik_asosiy": null,
+          "yuridik_taqqoslash": null,
+          "yozma_asosiy": 1,
+          "yozma_taqqoslash": 24,
+          "elektron_asosiy": 6,
+          "elektron_taqqoslash": 11,
+          "ogzaki_asosiy": 4,
+          "ogzaki_taqqoslash": 5,
+          "ariza_asosiy": null,
+          "ariza_taqqoslash": null,
+          "shikoyat_asosiy": null,
+          "shikoyat_taqqoslash": null,
+          "taklif_asosiy": null,
+          "taklif_taqqoslash": null,
+          "nazoratga_olingan": 11,
+          "chora_korildi": 7,
+          "tushuntirildi": 4,
+          "rad_etildi": 0,
+          "korib_chiqilmoqda": 0,
+          "takroriy": 0,
+          "muddati_buzilgan": 0,
+          "apparatda_korilgan": null,
+          "hududiy_idoralarga_yuborilgan": null,
+          "tegishli_idoralarga_yuborilgan": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "2 жадвал",
+          "row": 19,
+          "range": "A19:Q19"
+        }
+      }
+    ],
+    "metadata": {
+      "recordCount": 27,
+      "countsByKesim": {
+        "hudud": 15,
+        "mavzu": 12
+      },
+      "periodPairMapping": {
+        "asosiy": "source pair second subcolumn",
+        "taqqoslash": "source pair first subcolumn",
+        "basis": "The single 2025 form/status columns reconcile to the second total: 517 + 517 + 281 = 1315."
+      },
+      "regionTotals": {
+        "jami_asosiy": 1315,
+        "jami_taqqoslash": 1494,
+        "jismoniy_asosiy": 826,
+        "jismoniy_taqqoslash": 903,
+        "yuridik_asosiy": 489,
+        "yuridik_taqqoslash": 591,
+        "yozma_asosiy": 517,
+        "elektron_asosiy": 517,
+        "ogzaki_asosiy": 281,
+        "ariza_asosiy": 784,
+        "ariza_taqqoslash": 839,
+        "shikoyat_asosiy": 425,
+        "shikoyat_taqqoslash": 499,
+        "taklif_asosiy": 106,
+        "taklif_taqqoslash": 156
+      },
+      "topicTotals": {
+        "jami_asosiy": 1315,
+        "jami_taqqoslash": 1494,
+        "yozma_asosiy": 517,
+        "yozma_taqqoslash": 732,
+        "elektron_asosiy": 517,
+        "elektron_taqqoslash": 637,
+        "ogzaki_asosiy": 281,
+        "ogzaki_taqqoslash": 125,
+        "nazoratga_olingan": 1315,
+        "chora_korildi": 1075,
+        "tushuntirildi": 208,
+        "rad_etildi": 1,
+        "korib_chiqilmoqda": 31,
+        "takroriy": 6,
+        "muddati_buzilgan": 0
+      },
+      "validSourceColumns": {
+        "regionProfile": "'3 жадвал'!A:W + '5 жадвал'!A:T",
+        "topicOutcome": "'2 жадвал'!A:Q"
+      },
+      "refErrorColumnsExcluded": [
+        "X",
+        "Y",
+        "Z",
+        "AA",
+        "AC",
+        "AD"
+      ],
+      "duplicateCallCenterSheetExcluded": true
+    }
+  },
+  "SRC_APPEALS_LEADERSHIP_RECEPTIONS": {
+    "sourceVersion": "source-workbooks-2026-08",
+    "records": [
+      {
+        "title": "Rais Rahimov Anvar Karimovich",
+        "values": {
+          "kesim": "rahbariyat",
+          "rahbar": "Rais Rahimov Anvar Karimovich",
+          "manba": null,
+          "javobgarlik_turi": null,
+          "jami_asosiy": 390,
+          "jami_taqqoslash": 550,
+          "shaxsiy_sayyor_asosiy": 20,
+          "shaxsiy_sayyor_taqqoslash": 11,
+          "yozma_asosiy": 178,
+          "yozma_taqqoslash": 286,
+          "elektron_asosiy": 192,
+          "elektron_taqqoslash": 253,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": null,
+          "soni_taqqoslash": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "1 жадвал",
+          "row": 7,
+          "range": "A7:J7"
+        }
+      },
+      {
+        "title": "Raisning birinchi o‘rinbosari Qodirov Sanjar Rustamovich",
+        "values": {
+          "kesim": "rahbariyat",
+          "rahbar": "Raisning birinchi o‘rinbosari Qodirov Sanjar Rustamovich",
+          "manba": null,
+          "javobgarlik_turi": null,
+          "jami_asosiy": 320,
+          "jami_taqqoslash": 501,
+          "shaxsiy_sayyor_asosiy": 26,
+          "shaxsiy_sayyor_taqqoslash": 14,
+          "yozma_asosiy": 147,
+          "yozma_taqqoslash": 294,
+          "elektron_asosiy": 147,
+          "elektron_taqqoslash": 193,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": null,
+          "soni_taqqoslash": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "1 жадвал",
+          "row": 8,
+          "range": "A8:J8"
+        }
+      },
+      {
+        "title": "Rais o‘rinbosari — bosh muhandis Saidov Bekzod Olimovich",
+        "values": {
+          "kesim": "rahbariyat",
+          "rahbar": "Rais o‘rinbosari — bosh muhandis Saidov Bekzod Olimovich",
+          "manba": null,
+          "javobgarlik_turi": null,
+          "jami_asosiy": 209,
+          "jami_taqqoslash": 212,
+          "shaxsiy_sayyor_asosiy": 19,
+          "shaxsiy_sayyor_taqqoslash": 12,
+          "yozma_asosiy": 100,
+          "yozma_taqqoslash": 103,
+          "elektron_asosiy": 90,
+          "elektron_taqqoslash": 97,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": null,
+          "soni_taqqoslash": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "1 жадвал",
+          "row": 9,
+          "range": "A9:J9"
+        }
+      },
+      {
+        "title": "Rais o‘rinbosari Yusupov Dilshod Akmalovich",
+        "values": {
+          "kesim": "rahbariyat",
+          "rahbar": "Rais o‘rinbosari Yusupov Dilshod Akmalovich",
+          "manba": null,
+          "javobgarlik_turi": null,
+          "jami_asosiy": 196,
+          "jami_taqqoslash": 158,
+          "shaxsiy_sayyor_asosiy": 16,
+          "shaxsiy_sayyor_taqqoslash": 15,
+          "yozma_asosiy": 92,
+          "yozma_taqqoslash": 49,
+          "elektron_asosiy": 88,
+          "elektron_taqqoslash": 94,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": null,
+          "soni_taqqoslash": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "1 жадвал",
+          "row": 10,
+          "range": "A10:J10"
+        }
+      },
+      {
+        "title": "Xalq qabulxonasi",
+        "values": {
+          "kesim": "qabulxona",
+          "rahbar": null,
+          "manba": "Xalq qabulxonasi",
+          "javobgarlik_turi": null,
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": 73,
+          "qanoatlantirilgan": 50,
+          "tushuntirish_berilgan": 19,
+          "tegishliligi_boyicha_yuborilgan": 2,
+          "rad_etilgan": 0,
+          "korilmasdan_qoldirilgan": 0,
+          "korib_chiqilmoqda": 2,
+          "muddati_buzilgan": 0,
+          "soni_asosiy": null,
+          "soni_taqqoslash": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "6 жадвал",
+          "row": 6,
+          "range": "A6:H6"
+        }
+      },
+      {
+        "title": "Virtual qabulxona",
+        "values": {
+          "kesim": "qabulxona",
+          "rahbar": null,
+          "manba": "Virtual qabulxona",
+          "javobgarlik_turi": null,
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": 100,
+          "qanoatlantirilgan": 65,
+          "tushuntirish_berilgan": 25,
+          "tegishliligi_boyicha_yuborilgan": 2,
+          "rad_etilgan": 0,
+          "korilmasdan_qoldirilgan": 0,
+          "korib_chiqilmoqda": 8,
+          "muddati_buzilgan": 0,
+          "soni_asosiy": null,
+          "soni_taqqoslash": null
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "6 жадвал",
+          "row": 6,
+          "range": "I6:P6"
+        }
+      },
+      {
+        "title": "Jarima",
+        "values": {
+          "kesim": "javobgarlik",
+          "rahbar": null,
+          "manba": null,
+          "javobgarlik_turi": "Jarima",
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": 0,
+          "soni_taqqoslash": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "7 жадвал",
+          "row": 8,
+          "range": "A8:N8",
+          "derivation": "Each category is zero because the source disciplinary total and overall total are both zero; blank component cells are not treated as independent observations."
+        }
+      },
+      {
+        "title": "Hayfsan",
+        "values": {
+          "kesim": "javobgarlik",
+          "rahbar": null,
+          "manba": null,
+          "javobgarlik_turi": "Hayfsan",
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": 0,
+          "soni_taqqoslash": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "7 жадвал",
+          "row": 8,
+          "range": "A8:N8",
+          "derivation": "Each category is zero because the source disciplinary total and overall total are both zero; blank component cells are not treated as independent observations."
+        }
+      },
+      {
+        "title": "Lavozimidan ozod etish",
+        "values": {
+          "kesim": "javobgarlik",
+          "rahbar": null,
+          "manba": null,
+          "javobgarlik_turi": "Lavozimidan ozod etish",
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": 0,
+          "soni_taqqoslash": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "7 жадвал",
+          "row": 8,
+          "range": "A8:N8",
+          "derivation": "Each category is zero because the source disciplinary total and overall total are both zero; blank component cells are not treated as independent observations."
+        }
+      },
+      {
+        "title": "Ma’muriy",
+        "values": {
+          "kesim": "javobgarlik",
+          "rahbar": null,
+          "manba": null,
+          "javobgarlik_turi": "Ma’muriy",
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": 0,
+          "soni_taqqoslash": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "7 жадвал",
+          "row": 8,
+          "range": "A8:N8",
+          "derivation": "Each category is zero because the source disciplinary total and overall total are both zero; blank component cells are not treated as independent observations."
+        }
+      },
+      {
+        "title": "Jinoiy",
+        "values": {
+          "kesim": "javobgarlik",
+          "rahbar": null,
+          "manba": null,
+          "javobgarlik_turi": "Jinoiy",
+          "jami_asosiy": null,
+          "jami_taqqoslash": null,
+          "shaxsiy_sayyor_asosiy": null,
+          "shaxsiy_sayyor_taqqoslash": null,
+          "yozma_asosiy": null,
+          "yozma_taqqoslash": null,
+          "elektron_asosiy": null,
+          "elektron_taqqoslash": null,
+          "jami": null,
+          "qanoatlantirilgan": null,
+          "tushuntirish_berilgan": null,
+          "tegishliligi_boyicha_yuborilgan": null,
+          "rad_etilgan": null,
+          "korilmasdan_qoldirilgan": null,
+          "korib_chiqilmoqda": null,
+          "muddati_buzilgan": null,
+          "soni_asosiy": 0,
+          "soni_taqqoslash": 0
+        },
+        "source": {
+          "file": "Мурожаатлар.xlsx",
+          "sheet": "7 жадвал",
+          "row": 8,
+          "range": "A8:N8",
+          "derivation": "Each category is zero because the source disciplinary total and overall total are both zero; blank component cells are not treated as independent observations."
+        }
+      }
+    ],
+    "metadata": {
+      "recordCount": 11,
+      "countsByKesim": {
+        "rahbariyat": 4,
+        "qabulxona": 2,
+        "javobgarlik": 5
+      },
+      "leadershipTotals": {
+        "jami_asosiy": 1115,
+        "jami_taqqoslash": 1421,
+        "shaxsiy_sayyor_asosiy": 81,
+        "yozma_asosiy": 517,
+        "elektron_asosiy": 517
+      },
+      "receptionTotals": {
+        "jami": 173,
+        "qanoatlantirilgan": 115,
+        "tushuntirish_berilgan": 44,
+        "tegishliligi_boyicha_yuborilgan": 4,
+        "rad_etilgan": 0,
+        "korilmasdan_qoldirilgan": 0,
+        "korib_chiqilmoqda": 10,
+        "muddati_buzilgan": 0
+      },
+      "accountabilityOverall": {
+        "soni_asosiy": 0,
+        "soni_taqqoslash": 0
+      }
+    }
+  }
+}

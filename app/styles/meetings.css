@@ -1,0 +1,22 @@
+/* meetings: rules used only by app/meetings-page.tsx and its private components.
+   Imported by that entry file; see docs/FRONTEND_STYLE.md. */
+.calendar-strip { display: grid; grid-template-columns: repeat(7, minmax(0,1fr)); gap: 8px; }
+.agenda-panel { overflow: hidden; }
+.agenda-list { padding: 0 16px 16px; }
+.agenda-item { min-height: 122px; display: grid; grid-template-columns: 76px 3px minmax(0,1fr); gap: 15px; align-items: start; padding: 17px 4px; border-top: 1px solid #e9edf2; }
+.agenda-actions { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 11px; }
+.agenda-line { height: 82px; border-radius: 3px; background: var(--blue); }.agenda-line.amber { background: var(--amber); }.agenda-line.violet { background: var(--violet); }.agenda-line.green { background: var(--green); }
+.format-badge, .telegram-mini { display: inline-flex; align-items: center; gap: 4px; padding: 3px 6px; border-radius: 4px; color: #566174; background: var(--c-slate-95-2); font-size: 7px; font-weight: 650; }
+.format-badge.onlayn { color: var(--violet); background: var(--c-violet-97); }.telegram-mini { color: #1585cd; background: #eef8ff; }
+.meeting-side-stack { display: grid; gap: 18px; }
+.assistant-card { padding: 20px; background: linear-gradient(135deg,var(--c-white),#f6f9ff); }
+.assistant-next { margin-top: 17px; display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid #dce6f7; border-radius: 8px; background: var(--c-white); }
+@media (max-width: 760px) {
+  .calendar-strip { overflow-x: auto; grid-template-columns: repeat(7,72px); } }
+@media (max-width: 480px) {
+  .agenda-item { grid-template-columns: 56px 3px minmax(0,1fr); }.agenda-item > .icon-button { display: none; } }
+.calendar-navigation { display: grid; grid-template-columns: auto minmax(0,1fr) auto; align-items: center; gap: 12px; margin-bottom: 10px; }
+@media (max-width: 760px) {
+  .calendar-navigation { grid-template-columns: repeat(2,1fr); }.calendar-navigation button { justify-content: center; } }
+.list-truncated-note { display:flex; align-items:center; justify-content:space-between; gap:10px; margin:0 0 12px; padding:9px 13px; border:1px dashed #b9c9df; border-radius:9px; color:#315b91; background:var(--c-blue-99); font-size:11px; }
+[data-theme="dark"] .list-truncated-note { background:#12213a; border-color:#34507a; color:#bcd3f5; }

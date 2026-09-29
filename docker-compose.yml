@@ -1,0 +1,38 @@
+services:
+  app:
+    build: .
+    image: ijro-nazorati:latest
+    restart: unless-stopped
+    env_file: deploy/.env
+    environment:
+      NODE_ENV: production
+      DATABASE_PATH: /data/ijro.sqlite
+      STORAGE_DIR: /data/storage
+    volumes:
+      - ./runtime-data:/data
+    expose:
+      - "3000"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/api/health').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    depends_on:
+      - app
+    env_file: deploy/.env
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

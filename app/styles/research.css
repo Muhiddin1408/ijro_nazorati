@@ -1,0 +1,10 @@
+/* research: rules used only by app/research-reports.tsx and its private components.
+   Imported by that entry file; see docs/FRONTEND_STYLE.md. */
+.table-footer { width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; gap: 4px; border: 0; border-top: 1px solid #eef1f5; background: var(--c-white); color: var(--blue); font-size: 9px; font-weight: 600; cursor: pointer; }
+.research-workspace table { width:100%; border-collapse:separate; border-spacing:0; }
+.research-workspace th { height:auto; padding:10px 12px; background:var(--c-blue-98-3); color:#64748b; font-size:12px; font-weight:650; }
+.research-workspace td { height:auto; padding:11px 12px; color:#475569; font-size:12px; line-height:1.45; }
+.research-workspace tbody tr:hover { background:var(--c-blue-99); }
+.research-workspace [data-slot="dialog-content"] { max-width:min(920px,calc(100vw - 28px)); }
+@media (max-width:520px) {
+  .research-workspace th,.research-workspace td { font-size:11px; } }

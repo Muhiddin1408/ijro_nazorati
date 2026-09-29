@@ -1,0 +1,7 @@
+node_modules
+.next
+drizzle
+private-seed
+tests/fixtures
+package-lock.json
+*.md
