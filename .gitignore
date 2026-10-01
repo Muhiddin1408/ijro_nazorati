@@ -53,3 +53,6 @@ credential-secrets.private.json
 /data/*.sqlite*
 /storage/
 /runtime-data/
+
+# Hujjatlar (.md) faqat lokal: git va serverga yuborilmaydi
+*.md
