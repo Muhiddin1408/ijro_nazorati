@@ -555,9 +555,12 @@ docker compose up -d
 
 ## 9. Yangilash
 
+To'liq yo'riqnoma (zaxira, tekshiruv, orqaga qaytish bilan): **`SERVERNI_YANGILASH.md`**.
+Zaxira uchun oddiy `cp` emas, `VACUUM INTO` ishlatiladi: `runtime-data/` egasi `ubuntu`, `deploy` u yerga yoza olmaydi.
+
 ```bash
 cd /home/backend/ijro_nazorati
-cp runtime-data/ijro.sqlite runtime-data/backups/pre-update-$(date +%F-%H%M).sqlite
+# zaxira: SERVERNI_YANGILASH.md, 3-qadam
 git pull
 docker compose build
 docker compose up -d                 # migratsiyalar avtomatik
@@ -576,7 +579,7 @@ git checkout <oldingi_commit>
 docker compose build && docker compose up -d
 ```
 
-Yangi versiya migratsiya qo'llagan bo'lsa, `pre-update-...sqlite` ni 8.2 dagidek tiklang.
+Yangi versiya migratsiya qo'llagan bo'lsa, yangilashdan oldingi zaxirani 8.2 dagidek tiklang.
 
 ---
 
