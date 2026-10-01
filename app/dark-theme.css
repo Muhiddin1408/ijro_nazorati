@@ -57,6 +57,7 @@ html[data-theme="dark"] .modal-sheet {
 }
 
 html[data-theme="dark"] .topbar,
+html[data-theme="dark"] .password-change-gate > header,
 html[data-theme="dark"] .module-intro,
 html[data-theme="dark"] .management-toolbar {
   background: var(--surface-1);

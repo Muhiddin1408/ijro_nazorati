@@ -1,7 +1,7 @@
 # Bajarilgan ishlar hisoboti
 
 > **Loyiha:** Ijro nazorati (ichki hisobotlar tizimi)
-> **Davr:** 2026-09-29
+> **Davr:** 2026-09-29 – 2026-10-02
 > **Asos hujjatlar:** `ijro-nazorati-kod-auditi.md`, `KOD_VA_TEZLIK_REJASI.md`
 > **Batafsil hisobotlar:** `XAVFSIZLIK_HISOBOTI.md` (xavfsizlik), `KOD_VA_TEZLIK_REJASI.md` (holat jadvali), `DEPLOY.md` (serverga joylash)
 
@@ -177,6 +177,46 @@ Audit (`ijro-nazorati-kod-auditi.md`) o'rta darajali bandlarining hammasi yopild
 | Xodimlar | Rahbar sikli (A→B→A) — xodim yaratishdagi "tiklash" yo'lida sikl tekshiruvsiz yangilanish xatosi topildi va tuzatildi; baza triggeri qo'shildi |
 
 Yangi migratsiyalar: `0039_recurrence_anchor_and_task_file_quota.sql`, `0040_report_cycle_lifecycle.sql`, `0041_audit_append_only_and_value_guards.sql`.
+
+---
+
+## 7-bosqich. Markaziy apparat xodimlarini bazaga kiritish (2026-10-01)
+
+Manba: `Ходимлар.xlsx` ("Марказий аппарат" varag'i, 77 xodim, 20 bo'lim/bo'linma sarlavhasi).
+
+| Excel ustuni | Bazadagi maydon |
+|---|---|
+| Т/р | `app_employee_profiles.source_employee_number` |
+| Лавозими | `app_employees.position` (lotincha) + `app_position_occupancies` orqali shtat lavozimiga (`app_staff_positions`) bog'langan |
+| Ф.И.Ш. | `app_employees.full_name` (lotincha) + `app_employee_profiles.full_name_cyrillic` |
+| Tug'ilgan sana (sarlavhasiz ustun) | `app_employee_profiles.birth_date` (ISO, cheklangan profil ma'lumoti) |
+| Ички тел | `app_employee_profiles.internal_extension` |
+| Уяли телефон | `app_employee_profiles.mobile_phone` (`+998XXXXXXXXX` ko'rinishida) |
+| Bo'lim sarlavhasi qatori | `app_employees.department_id` (`app_departments`) |
+
+- **Yangi maydon kerak bo'lmadi:** Excel'dagi hamma ustun uchun modelda maydon bor edi.
+- Mavjud `private-seed/0016_private_central_apparatus_employees.sql` (eski `Тел рақамлар 3.xlsx` asosida) bazaga qo'llandi. Natija: 77 xodim, 77 profil, 77 ta lavozim bandligi. Rollar: rais 1, o'rinbosarlar 2, boshqarma/bo'lim rahbarlari 15, yordamchi 1, xodimlar 57, admin 1.
+- Yangi fayl bilan solishtirildi: F.I.Sh., tug'ilgan sana, lavozim va bo'limlar bir xil. Faqat 3 ta kontakt farq qildi, ular `private-seed/0017_private_employees_xodimlar_update.sql` bilan tuzatildi: #3 va #4 mobil raqami olib tashlandi (#3 dagisi aslida idoraning umumiy raqami edi), #27 ichki raqami (110) olib tashlandi.
+- Tekshiruv: bazadagi 77 yozuv Excel bilan katakma-katak solishtirildi, farq 0 ta.
+- Zaxira nusxa: `runtime-data/backups/ijro-2026-10-01-before-xodimlar.sqlite`.
+- Eslatma: seed tufayli `tizim.admin` logini Nurmurodov Javoxir (#49) xodim yozuviga bog'langan. Xodimlarga hali login berilmagan, loginlar ilovadagi lavozim loginlari bo'limidan yaratiladi.
+- Serverda (finance.liberator.uz) qo'llash: `DEPLOY.md` dagi `seed-private` tartibi bilan avval 0016, keyin 0017 qo'llanadi.
+
+---
+
+## 8-bosqich. Tug'ilgan kun tabrigi (2026-10-02)
+
+| Kim | Nima ko'radi |
+|---|---|
+| Tug'ilgan kuni bugun bo'lgan xodim | Tizimni ochganda alohida tabrik sahifasi chiqadi (ism, tabrik matni, konfetti, "Ish stoliga o'tish" tugmasi). Kuniga bir marta, yopilgach shu kuni qayta chiqmaydi (brauzerda eslab qolinadi) |
+| Shu tashkilotdagi boshqa xodimlar | Bosh sahifaning yuqorisida "Bugun hamkasbingizning tug'ilgan kuni" lavhasi: ism va lavozim |
+
+- **Server:** `lib/birthdays.ts` bugungi sanani Toshkent vaqti (UTC+5) bo'yicha hisoblaydi. 29-fevralda tug'ilganlar kabisa bo'lmagan yilda 28-fevralda tabriklanadi. Natija `/api/bootstrap` javobiga `birthdays` maydoni bo'lib qo'shildi (`services/bootstrap.ts`).
+- **Maxfiylik:** brauzerga faqat ism, lavozim va bo'lim yuboriladi. Tug'ilgan sana va yosh serverdan chiqmaydi (cheklangan profil ma'lumoti). Ro'yxat xodimning o'z tashkiloti bilan cheklangan.
+- **UI:** `app/_components/dashboard/birthday.tsx`, `app/styles/birthday.css`. Lotin, kirill va rus tillarida ishlaydi, qorong'i mavzu va mobil ekranga moslangan. Animatsiya `prefers-reduced-motion` da o'chadi.
+- **Yo'l-yo'lakay:** qorong'i mavzuda parolni almashtirish sahifasining sarlavhasi oq qolib, matn o'qilmas edi (`dark-theme.css`). Tuzatildi.
+- **Tekshiruv:** yangi `tests/birthdays.test.mjs` (Toshkent sanasi, 29-fevral, tashkilot chegarasi, faol emas xodim, sana tashqariga chiqmasligi). Jami **234/234 test**, `tsc`, `eslint` (yangi ogohlantirish yo'q), Prettier toza. Docker'da yig'ilgan ilova Playwright bilan tekshirildi: tabrik sahifasi → "Ish stoliga o'tish" → qayta yuklashda chiqmaydi; hamkasb akkauntida lavha chiqadi; desktop va mobil (390 px) ekranda gorizontal siljish yo'q, JS xatolari yo'q.
+- **Serverga chiqarish:** kodni yangilab, konteynerni qayta yig'ish kerak (`docker compose up -d --build`, faqat loyiha papkasida). Migratsiya yoki yangi maydon kerak emas.
 
 **Tuzatish:** avvalgi xabarda "davriy topshiriq muddati siljishi tuzatildi" deyilgan edi — bu noto'g'ri edi; u aynan shu bosqichda tuzatildi.
 

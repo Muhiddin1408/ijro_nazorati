@@ -1,5 +1,6 @@
 import { getD1 } from "../db";
 import { ApiError, requireActor, type Actor } from "../lib/auth";
+import { birthdayKeysFor, todaysBirthdays } from "../lib/birthdays";
 import { listAuditLogs, listMeetingsPage, listTasksPage } from "../lib/data";
 import { etagFor } from "../lib/shared/etag";
 import { telegramStatus } from "../lib/telegram";
@@ -25,9 +26,10 @@ export async function buildBootstrap(actor: Actor) {
       counters: { latestAuditAt: null },
       lists: { tasksHasMore: false, meetingsHasMore: false },
       telegram: { configured: false, botUsername: null, linkedEmployees: 0, pendingJobs: 0 },
+      birthdays: { date: birthdayKeysFor().date, mine: false, people: [] },
     };
   }
-  const [tasksPage, meetingsPage, latestAudit, rolesResult, topicsResult, integrationsResult, telegram] =
+  const [tasksPage, meetingsPage, latestAudit, rolesResult, topicsResult, integrationsResult, telegram, birthdays] =
     await Promise.all([
       listTasksPage(actor),
       listMeetingsPage(actor),
@@ -46,6 +48,7 @@ export async function buildBootstrap(actor: Actor) {
       actor.permissions.canConfigure
         ? telegramStatus()
         : Promise.resolve({ configured: false, botUsername: null, linkedEmployees: 0, pendingJobs: 0 }),
+      todaysBirthdays(actor),
     ]);
   return {
     actor,
@@ -90,6 +93,8 @@ export async function buildBootstrap(actor: Actor) {
       lastSyncAt: row.last_sync_at ? String(row.last_sync_at) : null,
     })),
     telegram,
+    // Today's birthdays (Tashkent date): the viewer's own opens a greeting page, colleagues' show on the home page.
+    birthdays,
   };
 }
 

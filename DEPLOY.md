@@ -40,10 +40,14 @@ Vaqtinchalik parol chiqadi — birinchi kirishda almashtiriladi.
 Haqiqiy xodimlar ro'yxati git'da saqlanmaydi. Uni serverga alohida ko'chirib, bir marta
 yuklang:
 
+Fayl nomlarini o'zgartirmang: seed qayta qo'llanmasligi fayl nomi bo'yicha tekshiriladi.
+Tartib muhim: avval 0016, keyin 0017 (`Ходимлар.xlsx` bo'yicha kontakt tuzatishlari).
+
 ```bash
-scp private-seed/0016_private_central_apparatus_employees.sql root@SERVER:/opt/ijro/runtime-data/seed.sql
-docker compose exec app node scripts/db.mjs seed-private /data/seed.sql
-rm /opt/ijro/runtime-data/seed.sql
+scp private-seed/0016_private_*.sql private-seed/0017_private_*.sql root@SERVER:/opt/ijro/runtime-data/
+docker compose exec app node scripts/db.mjs seed-private /data/0016_private_central_apparatus_employees.sql
+docker compose exec app node scripts/db.mjs seed-private /data/0017_private_employees_xodimlar_update.sql
+rm /opt/ijro/runtime-data/00*_private_*.sql
 ```
 
 ## 5. Telegram bot

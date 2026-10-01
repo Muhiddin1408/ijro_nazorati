@@ -16,6 +16,8 @@ import {
   Send,
 } from "lucide-react";
 import { LocalInsightsPanel } from "./local-insights";
+import { BirthdayStrip } from "./_components/dashboard/birthday";
+import type { Birthdays } from "./_components/dashboard/dashboard-types";
 import { addDays, avatarColor, formatDateTime, formatTime, initials, localDateKey } from "./ui-helpers";
 import { tNow, useI18n } from "../lib/i18n";
 
@@ -49,6 +51,7 @@ type HomeData = {
   meetings: HomeMeeting[];
   actor: { permissions: { canExport: boolean } };
   telegram: { configured: boolean; linkedEmployees: number; pendingJobs: number };
+  birthdays?: Birthdays;
 };
 
 function deadlineLabel(task: HomeTask) {
@@ -155,6 +158,7 @@ export function DashboardHome({
   const departmentStats = departmentPerformance(data.tasks);
   return (
     <>
+      <BirthdayStrip people={data.birthdays?.people ?? []} />
       <MetricCards tasks={data.tasks} overdue={overdue} completion={completion} />
       <LocalInsightsPanel tasks={data.tasks} meetings={data.meetings} />
       <section className="workspace-grid">

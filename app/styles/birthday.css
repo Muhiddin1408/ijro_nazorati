@@ -1,0 +1,64 @@
+/* Birthday greeting page and home-page strip (app/_components/dashboard/birthday.tsx). */
+.birthday-greeting { position: relative; min-height: calc(100dvh - 72px); display: grid; place-items: center; padding: 32px 16px; overflow: hidden; background: radial-gradient(circle at 20% 15%, #fff1d6 0, transparent 45%), radial-gradient(circle at 85% 80%, #e6efff 0, transparent 50%), #f7f9fc; }
+.birthday-card { position: relative; z-index: 1; width: min(560px, 100%); padding: 36px clamp(20px, 5vw, 44px); border: 1px solid #f1dcae; border-radius: 18px; background: var(--c-white); box-shadow: 0 18px 50px rgba(150, 100, 20, .14); text-align: center; }
+.birthday-icon { width: 88px; height: 88px; display: grid; place-items: center; margin: 0 auto 14px; border-radius: 50%; color: #c2410c; background: linear-gradient(135deg, #fff4e5, #ffe2bd); animation: birthday-bounce 1.8s ease-in-out infinite; }
+.birthday-kicker { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 0 0 8px; color: var(--amber); font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.birthday-greeting h1 { margin: 0 0 14px; color: var(--text-primary, #0f172a); font-size: clamp(22px, 4vw, 30px); line-height: 1.25; }
+.birthday-message { margin: 0 0 26px; color: var(--text-secondary, #475569); font-size: 14px; line-height: 1.65; }
+.birthday-continue { min-height: 44px; padding: 0 26px; }
+.birthday-confetti i { position: absolute; top: -12px; width: 9px; height: 15px; border-radius: 2px; opacity: .85; animation: birthday-fall 6s linear infinite; }
+.birthday-confetti i:nth-child(6n+1) { background: #f59e0b; }
+.birthday-confetti i:nth-child(6n+2) { background: var(--blue); }
+.birthday-confetti i:nth-child(6n+3) { background: #ec4899; }
+.birthday-confetti i:nth-child(6n+4) { background: #10b981; }
+.birthday-confetti i:nth-child(6n+5) { background: #8b5cf6; }
+.birthday-confetti i:nth-child(6n) { background: #ef4444; }
+.birthday-confetti i:nth-child(1) { left: 4%; animation-delay: 0s; }
+.birthday-confetti i:nth-child(2) { left: 10%; animation-delay: 2.1s; }
+.birthday-confetti i:nth-child(3) { left: 16%; animation-delay: 4.3s; }
+.birthday-confetti i:nth-child(4) { left: 22%; animation-delay: 1.2s; }
+.birthday-confetti i:nth-child(5) { left: 28%; animation-delay: 3.4s; }
+.birthday-confetti i:nth-child(6) { left: 34%; animation-delay: .6s; }
+.birthday-confetti i:nth-child(7) { left: 40%; animation-delay: 5.1s; }
+.birthday-confetti i:nth-child(8) { left: 46%; animation-delay: 2.7s; }
+.birthday-confetti i:nth-child(9) { left: 52%; animation-delay: .3s; }
+.birthday-confetti i:nth-child(10) { left: 58%; animation-delay: 3.9s; }
+.birthday-confetti i:nth-child(11) { left: 64%; animation-delay: 1.6s; }
+.birthday-confetti i:nth-child(12) { left: 70%; animation-delay: 4.7s; }
+.birthday-confetti i:nth-child(13) { left: 76%; animation-delay: .9s; }
+.birthday-confetti i:nth-child(14) { left: 82%; animation-delay: 2.4s; }
+.birthday-confetti i:nth-child(15) { left: 88%; animation-delay: 5.5s; }
+.birthday-confetti i:nth-child(16) { left: 93%; animation-delay: 1.9s; }
+.birthday-confetti i:nth-child(17) { left: 97%; animation-delay: 3.1s; }
+.birthday-confetti i:nth-child(18) { left: 49%; animation-delay: 4.1s; }
+@keyframes birthday-fall { 0% { transform: translateY(0) rotate(0); } 100% { transform: translateY(110dvh) rotate(540deg); } }
+@keyframes birthday-bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+
+.birthday-strip { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; padding: 12px 15px; border: 1px solid #f3d9a4; border-left: 4px solid var(--amber); border-radius: 10px; background: linear-gradient(135deg, #fffaf0, #fff4e5); }
+.birthday-strip-icon { width: 38px; height: 38px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; color: #c2410c; background: #ffe7c7; }
+.birthday-strip-text { min-width: 170px; }
+.birthday-strip-text strong, .birthday-strip-text small { display: block; }
+.birthday-strip-text strong { font-size: 12px; }
+.birthday-strip-text small { margin-top: 3px; color: #8a6a32; font-size: 10px; }
+.birthday-people { min-width: 0; flex: 1; display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.birthday-people li { min-width: 0; display: flex; align-items: center; gap: 7px; padding: 7px 11px; border: 1px solid #f1dcae; border-radius: 8px; background: var(--c-white); color: #c2410c; }
+.birthday-people b, .birthday-people small { display: block; color: var(--text-primary, #0f172a); }
+.birthday-people b { font-size: 11px; }
+.birthday-people small { margin-top: 2px; color: var(--text-secondary, #64748b); font-size: 9px; }
+
+html[data-theme="dark"] .birthday-greeting { background: radial-gradient(circle at 20% 15%, rgba(245, 158, 11, .14) 0, transparent 45%), radial-gradient(circle at 85% 80%, rgba(59, 130, 246, .14) 0, transparent 50%), var(--surface-0); }
+html[data-theme="dark"] .birthday-card { border-color: var(--border-subtle); background: var(--surface-1); box-shadow: var(--shadow-soft); }
+html[data-theme="dark"] .birthday-icon, html[data-theme="dark"] .birthday-strip-icon { color: #fdba74; background: rgba(245, 158, 11, .16); }
+html[data-theme="dark"] .birthday-strip { border-color: #5a4318; background: var(--warning-bg); }
+html[data-theme="dark"] .birthday-strip-text small { color: var(--warning-text); }
+html[data-theme="dark"] .birthday-people li { border-color: var(--border-subtle); background: var(--surface-2); color: #fdba74; }
+
+@media (max-width: 760px) {
+  .birthday-strip { align-items: flex-start; flex-wrap: wrap; }
+  .birthday-people { flex-basis: 100%; }
+  .birthday-people li { flex: 1 1 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .birthday-icon, .birthday-confetti i { animation: none; }
+  .birthday-confetti { display: none; }
+}

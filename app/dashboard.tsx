@@ -62,6 +62,7 @@ import { DashboardProvider } from "./_components/dashboard/dashboard-context";
 import { conditionalCache, conditionalJson, requestBootstrap } from "./_components/dashboard/bootstrap-client";
 import { DashboardModals } from "./_components/dashboard/dashboard-modals";
 import { DashboardPages, type InformationRequest } from "./_components/dashboard/dashboard-pages";
+import { BirthdayGreeting, birthdaySeenKey } from "./_components/dashboard/birthday";
 import {
   ADMIN_SECTION_START,
   buildNavItems,
@@ -346,6 +347,17 @@ export default function Dashboard({
     }, 0);
     return () => window.clearTimeout(timer);
   }, []);
+  // The greeting opens once per day: the key is read only after hydration, so the
+  // server render and the first client render agree.
+  const birthdayKey = actorId != null && data?.birthdays?.mine ? birthdaySeenKey(actorId, data.birthdays.date) : null;
+  const [birthdaySeen, setBirthdaySeen] = useState<Record<string, boolean>>({});
+  useEffect(() => {
+    if (!birthdayKey) return;
+    const timer = window.setTimeout(() => {
+      setBirthdaySeen((current) => ({ ...current, [birthdayKey]: readStored(birthdayKey) === "1" }));
+    }, 0);
+    return () => window.clearTimeout(timer);
+  }, [birthdayKey]);
   const latestAuditAt = data?.counters?.latestAuditAt ?? null;
   useEffect(() => {
     if (activeNav !== "audit" || !latestAuditAt) return;
@@ -521,6 +533,34 @@ export default function Dashboard({
               {t(toast.text)}
             </div>
           ) : null}
+        </div>
+      </I18nProvider>
+    );
+  }
+  if (birthdayKey && birthdaySeen[birthdayKey] === false) {
+    return (
+      <I18nProvider locale={locale}>
+        <div className="password-change-gate">
+          <header>
+            <div className="brand-row">
+              <BrandMark />
+              <div>
+                <strong>{t("Ichki hisobotlarni boshqarish tizimi")}</strong>
+                <span>{t("Yagona boshqaruv portali")}</span>
+              </div>
+            </div>
+            <div className="password-gate-actions">
+              <LocaleSwitch locale={locale} onChange={chooseAlphabet} />
+              <ThemeModeToggle />
+            </div>
+          </header>
+          <BirthdayGreeting
+            name={actor.name}
+            onContinue={() => {
+              writeStored(birthdayKey, "1");
+              setBirthdaySeen((current) => ({ ...current, [birthdayKey]: true }));
+            }}
+          />
         </div>
       </I18nProvider>
     );

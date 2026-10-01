@@ -63,7 +63,11 @@ export type Bootstrap = {
   telegram: { configured: boolean; botUsername: string | null; linkedEmployees: number; pendingJobs: number };
   counters?: { latestAuditAt: string | null };
   lists?: { tasksHasMore: boolean; meetingsHasMore: boolean; tasksNextCursor?: string | null };
+  birthdays?: Birthdays;
 };
+export type BirthdayPerson = { id: number; name: string; position: string; department: string };
+/** Today's birthdays: `mine` opens the greeting page, `people` are colleagues shown on the home page. */
+export type Birthdays = { date: string; mine: boolean; people: BirthdayPerson[] };
 /** Organizations and departments, loaded on demand from /api/bootstrap/structure. */
 export type OrgStructure = { departments: Department[]; organizations: Organization[] };
 /** What /api/bootstrap returns: everything except the on-demand structure. */

@@ -455,4 +455,14 @@ export const shell: Record<string, string> = {
   "Yig‘ilish taqvimga kiritildi": "Совещание добавлено в календарь",
   "Yo‘l infratuzilmasi va boshqaruv ma’lumotlari tayyorlanmoqda…":
     "Подготовка данных дорожной инфраструктуры и управления…",
+  // Birthdays
+  "Tug‘ilgan kuningiz muborak!": "С днём рождения!",
+  "Hurmatli {name}!": "Уважаемый(ая) {name}!",
+  "Jamoamiz nomidan sizni tavallud ayyomingiz bilan chin qalbdan tabriklaymiz! Sizga mustahkam sog‘liq, oilaviy baxt-saodat va ishlaringizda ulkan muvaffaqiyatlar tilaymiz.":
+    "От имени всего коллектива сердечно поздравляем вас с днём рождения! Желаем крепкого здоровья, семейного счастья и больших успехов в работе.",
+  "Ish stoliga o‘tish": "Перейти к рабочему столу",
+  "Bugungi tug‘ilgan kunlar": "Дни рождения сегодня",
+  "Bugun hamkasbingizning tug‘ilgan kuni": "Сегодня день рождения у вашего коллеги",
+  "Bugun {n} nafar hamkasbingizning tug‘ilgan kuni": "Сегодня день рождения у коллег: {n}",
+  "Tabriklashni unutmang!": "Не забудьте поздравить!",
 };
