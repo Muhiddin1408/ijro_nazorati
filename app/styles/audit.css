@@ -1,6 +1,6 @@
 /* audit: rules used only by app/audit-page.tsx and its private components.
    Imported by that entry file; see docs/FRONTEND_STYLE.md. */
-.audit-list { overflow: hidden; }.audit-row { display: flex; align-items: center; gap: 11px; padding: 13px 16px; border-top: 1px solid var(--border); }.audit-row:first-child { border-top: 0; }.audit-icon { width: 31px; height: 31px; display: grid; place-items: center; flex: 0 0 auto; border-radius: 8px; color: var(--blue); background: var(--blue-soft); }.audit-row time { color: #738095; font-size: 7.5px; white-space: nowrap; }@media (max-width: 760px) {
+.audit-list { overflow: hidden; }.audit-row { display: flex; align-items: center; gap: 11px; padding: 13px 16px; border-top: 1px solid var(--bd-1); }.audit-row:first-child { border-top: 0; }.audit-icon { width: 31px; height: 31px; display: grid; place-items: center; flex: 0 0 auto; border-radius: 8px; color: var(--blue-fg); background: var(--blue-soft); }.audit-row time { color: var(--fg-738095); font-size: 11px; white-space: nowrap; }@media (max-width: 760px) {
   .audit-row { align-items: flex-start; }.audit-row time { white-space: normal; text-align: right; } }
 .skeleton-circle { width: 32px; height: 32px; border-radius: 50%; flex: 0 0 auto; }
 .skeleton-row { pointer-events: none; }

@@ -1,38 +1,38 @@
 /* dashboard-home: rules used only by app/dashboard-home.tsx and its private components.
    Imported by that entry file; see docs/FRONTEND_STYLE.md. */
 .metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 15px; }
-.metric-card { min-height: 126px; position: relative; display: flex; align-items: flex-start; gap: 14px; padding: 20px; border: 1px solid var(--border); border-radius: 11px; background: var(--c-white); overflow: hidden; transition: 150ms ease-out; }
-.metric-card:hover { border-color: #c7d2e3; transform: translateY(-1px); }
-.metric-card span:not(.metric-icon) { display: block; margin-bottom: 5px; color: #566174; font-size: 12px; }
-.metric-card small.positive { color: var(--green); }
-.metric-card small.negative { color: var(--red); }
-.amber-text { color: var(--amber) !important; }
-.red-text { color: var(--red) !important; }
-.metric-progress { position: absolute; left: 20px; right: 20px; bottom: 15px; height: 4px; border-radius: 3px; background: var(--c-slate-94); }
+.metric-card { min-height: 126px; position: relative; display: flex; align-items: flex-start; gap: 14px; padding: 20px; border: 1px solid var(--bd-1); border-radius: 11px; background: var(--sf-0); overflow: hidden; transition: 150ms ease-out; }
+.metric-card:hover { border-color: var(--bd-1); transform: translateY(-1px); }
+.metric-card span:not(.metric-icon) { display: block; margin-bottom: 5px; color: var(--tx-2); font-size: 12px; }
+.metric-card small.positive { color: var(--green-fg); }
+.metric-card small.negative { color: var(--red-fg); }
+.amber-text { color: var(--amber-fg) !important; }
+.red-text { color: var(--red-fg) !important; }
+.metric-progress { position: absolute; left: 20px; right: 20px; bottom: 15px; height: 4px; border-radius: 3px; background: var(--sf-2); }
 
 .workspace-grid { display: grid; grid-template-columns: minmax(0, 1fr) 326px; gap: 18px; margin-top: 18px; align-items: start; }
 .workspace-main, .workspace-side { display: grid; gap: 18px; min-width: 0; }
-.pinned-strip { min-height: 72px; display: flex; align-items: center; gap: 16px; padding: 12px 15px; border: 1px solid #c8d9fa; border-left: 4px solid var(--blue); border-radius: 10px; background: var(--c-blue-98); }
+.pinned-strip { min-height: 72px; display: flex; align-items: center; gap: 16px; padding: 12px 15px; border: 1px solid var(--bd-c8d9fa); border-left: 4px solid var(--blue); border-radius: 10px; background: var(--sf-1); }
 .pinned-title { min-width: 168px; display: flex; align-items: center; gap: 10px; }
 .pinned-items { min-width: 0; display: flex; gap: 8px; flex: 1; }
-.pinned-item { min-width: 0; flex: 1; padding: 8px 11px; border: 1px solid #d7e3f8; border-radius: 7px; background: var(--c-white); text-align: left; cursor: pointer; }
-.tasks-header { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 17px 18px; border-bottom: 1px solid var(--border); }
+.pinned-item { min-width: 0; flex: 1; padding: 8px 11px; border: 1px solid var(--bd-1); border-radius: 7px; background: var(--sf-0); text-align: left; cursor: pointer; }
+.tasks-header { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 17px 18px; border-bottom: 1px solid var(--bd-1); }
 .task-tools { display: flex; align-items: center; gap: 9px; }
-.filter-group { display: flex; gap: 4px; padding: 3px; border: 1px solid #e1e6ee; border-radius: 8px; background: #f8f9fb; }
-.tasks-header .secondary-button { height: 36px; padding: 0 12px; font-size: 10px; }
+.filter-group { display: flex; gap: 4px; padding: 3px; border: 1px solid var(--bd-1); border-radius: 8px; background: var(--sf-1); }
+.tasks-header .secondary-button { height: 36px; padding: 0 12px; font-size: 11px; }
 .task-title-cell { min-width: 248px; display: flex; align-items: center; gap: 8px; }
 .assignee-cell { min-width: 135px; display: flex; align-items: center; gap: 8px; }
 .progress-cell { min-width: 98px; display: flex; align-items: center; gap: 7px; }
 
 .meetings-card { overflow: hidden; }
 .meeting-list { padding: 0 12px 9px; }
-.meeting-item { width: 100%; display: flex; align-items: flex-start; gap: 10px; padding: 11px 5px; border: 0; border-bottom: 1px solid var(--c-slate-94); background: var(--c-white); text-align: left; cursor: pointer; }
-.meeting-item:hover { background: var(--c-blue-99-3); }
-.meeting-time { min-width: 45px; padding: 5px 4px; border-radius: 5px; color: var(--blue); background: var(--c-blue-96); font-size: 9px; font-weight: 700; text-align: center; }
-.meeting-time.amber { color: var(--amber); background: var(--c-orange-95); }.meeting-time.violet { color: var(--violet); background: var(--c-violet-97); }
+.meeting-item { width: 100%; display: flex; align-items: flex-start; gap: 10px; padding: 11px 5px; border: 0; border-bottom: 1px solid var(--bd-1); background: var(--sf-0); text-align: left; cursor: pointer; }
+.meeting-item:hover { background: var(--sf-0); }
+.meeting-time { min-width: 45px; padding: 5px 4px; border-radius: 5px; color: var(--blue-fg); background: var(--sf-2); font-size: 11px; font-weight: 700; text-align: center; }
+.meeting-time.amber { color: var(--amber-fg); background: var(--sf-1); }.meeting-time.violet { color: var(--violet-fg); background: var(--sf-2); }
 .department-list { padding: 3px 17px 18px; display: grid; gap: 14px; }
-.department-progress { height: 5px; display: block; border-radius: 4px; background: var(--c-slate-94); overflow: hidden; }
-.telegram-notice { display: flex; gap: 12px; padding: 17px; border: 1px solid #cfe4f8; border-radius: 11px; background: linear-gradient(135deg, #f1f9ff, #f7fbff); }
+.department-progress { height: 5px; display: block; border-radius: 4px; background: var(--sf-2); overflow: hidden; }
+.telegram-notice { display: flex; gap: 12px; padding: 17px; border: 1px solid var(--bd-cfe4f8); border-radius: 11px; background: linear-gradient(135deg, var(--sf-1), var(--sf-1)); }
 @media (max-width: 1180px) {
   .workspace-grid { grid-template-columns: 1fr; }
   .workspace-side { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
@@ -48,9 +48,9 @@
 @media (max-width: 440px) {
   .metric-grid { grid-template-columns: 1fr; }
   .pinned-items { flex-direction: column; } }.topic-mini { max-width:160px; }@media (max-width: 760px) {
-  .tasks-panel .table-wrap { overflow:visible; }.tasks-panel table,.tasks-panel tbody { display:block; }.tasks-panel thead { display:none; }.tasks-panel tr { display:grid; grid-template-columns:1fr 1fr; gap:3px; margin:0 9px 9px; padding:10px; border:1px solid var(--border); border-radius:10px; background:var(--c-white); }.tasks-panel td { height:auto; padding:5px; border:0; }.tasks-panel td:first-child { grid-column:1/-1; }.tasks-panel td:last-child { display:none; }.tasks-panel .task-title-cell { min-width:0; }.tasks-panel .task-title-cell strong { max-width:100%; white-space:normal; }.tasks-panel .task-title-cell > div > span { flex-wrap:wrap; } }@media (max-width: 480px) {
-  .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.metric-card { min-height:105px; }.metric-card span:not(.metric-icon) { font-size:10px; } }
-.record-history td.positive { color:#128159; }
+  .tasks-panel .table-wrap { overflow:visible; }.tasks-panel table,.tasks-panel tbody { display:block; }.tasks-panel thead { display:none; }.tasks-panel tr { display:grid; grid-template-columns:1fr 1fr; gap:3px; margin:0 9px 9px; padding:10px; border:1px solid var(--bd-1); border-radius:10px; background:var(--sf-0); }.tasks-panel td { height:auto; padding:5px; border:0; }.tasks-panel td:first-child { grid-column:1/-1; }.tasks-panel td:last-child { display:none; }.tasks-panel .task-title-cell { min-width:0; }.tasks-panel .task-title-cell strong { max-width:100%; white-space:normal; }.tasks-panel .task-title-cell > div > span { flex-wrap:wrap; } }@media (max-width: 480px) {
+  .metric-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.metric-card { min-height:105px; }.metric-card span:not(.metric-icon) { font-size:11px; } }
+.record-history td.positive { color:var(--fg-128159); }
 
 /* Grid items must be allowed to shrink below their content width on phones. */
 .workspace-grid > * { min-width: 0; }

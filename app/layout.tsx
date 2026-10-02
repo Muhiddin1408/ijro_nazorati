@@ -3,6 +3,7 @@ import { cookies, headers } from "next/headers";
 import { LOCALE_COOKIE, localeLang, parseLocale } from "../lib/i18n/core";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "./theme-tokens.css";
 import "./dark-theme.css";
 import "./information-search.css";
 

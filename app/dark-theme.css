@@ -12,9 +12,9 @@ html[data-theme="dark"] {
   --surface-elevated: #1e293b;
   --border-subtle: #2a3648;
   --border-strong: #3d4f66;
-  --text-primary: #e8eef7;
-  --text-secondary: #a8b3c7;
-  --text-muted: #7a879c;
+  --text-primary: #eef2f8;
+  --text-secondary: #cdd5e1;
+  --text-muted: #a9b5c6;
   --text-inverse: #0b1220;
   --shadow-soft: 0 8px 24px rgba(0, 0, 0, 0.35);
   --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.4);
@@ -30,6 +30,46 @@ html[data-theme="dark"] {
   --success-text: #6ee7b7;
   --info-bg: #0c1e3b;
   --info-text: #93c5fd;
+
+  /* Accent colours used as text must be lighter on dark surfaces. */
+  --blue-fg: #7aa7ff;
+  --blue-dark: #b3cbff;
+  --blue-soft: #1b2c4f;
+  --red-fg: #ff9a90;
+  --green-fg: #5fd8a8;
+  --amber-fg: #fbc56a;
+  --violet-fg: #bcadff;
+
+  /* Shared component tokens (components/ui, Tailwind theme). */
+  --canvas: var(--surface-0);
+  --white: var(--surface-2);
+  --ink: var(--text-primary);
+  --muted: var(--text-muted);
+  --border: var(--border-subtle);
+  --background: var(--surface-0);
+  --foreground: var(--text-primary);
+  --card: var(--surface-2);
+  --card-foreground: var(--text-primary);
+  --popover: var(--surface-elevated);
+  --popover-foreground: var(--text-primary);
+  --secondary: var(--blue-soft);
+  --secondary-foreground: var(--blue-dark);
+  --muted-foreground: var(--text-muted);
+  --accent: #123a2e;
+  --accent-foreground: #8fe3c3;
+  --input: var(--input-border);
+}
+
+html[data-theme="dark"][data-color-theme="indigo"] { --blue-fg: #a99cff; --blue-dark: #cdc5ff; --blue-soft: #29244f; }
+html[data-theme="dark"][data-color-theme="emerald"] { --blue-fg: #4fd1a1; --blue-dark: #95e5c6; --blue-soft: #123a2e; }
+html[data-theme="dark"][data-color-theme="teal"] { --blue-fg: #4cc9d4; --blue-dark: #98e1e7; --blue-soft: #11353a; }
+html[data-theme="dark"][data-color-theme="amber"] { --blue-fg: #f2aa50; --blue-dark: #f8cd92; --blue-soft: #3a2a12; }
+html[data-theme="dark"][data-color-theme="graphite"] { --blue: #5b6d86; --blue-fg: #b4c0d0; --blue-dark: #d3dae5; --blue-soft: #263142; }
+
+/* Information centre: per-domain accent used as text. */
+html[data-theme="dark"] :is(.info-domain-owner, .info-domain-banner > span, .info-domain-banner small,
+  .info-domain-banner > div:last-child strong, .info-domain-icon, .info-open-hint) {
+  color: color-mix(in oklab, var(--domain-color) 50%, #ffffff);
 }
 
 html[data-theme="dark"] body,
@@ -440,4 +480,9 @@ html[data-theme="dark"] .notification-prefs-row {
   .theme-mode-toggle button {
     padding: 0.4rem 0.5rem;
   }
+}
+
+/* Inputs embedded in an already-styled search field inherit its surface. */
+html[data-theme="dark"] :is(.search-box, .employee-deep-search, .info-search, .info-data-search, .thematic-access-search, .thematic-domain-search) input {
+  background: transparent;
 }
